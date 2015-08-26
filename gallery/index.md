@@ -6,8 +6,9 @@ order: 5
 ---
 
 <div class="fotorama"
+    data-width="100%"
+    data-ratio="800/600"
 	 data-nav="thumbs"
-	 data-click="true"
 	 data-arrows="true">
   <img src="/img/sample_feature_img_3.jpg">
   <img src="/img/sample_feature_img_3.jpg">
