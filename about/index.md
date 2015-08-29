@@ -4,106 +4,32 @@ title: О нас
 permalink: /about/
 order: 1
 ---
-# This is an H1
+# Информация о студии
+ИЗОСТУДИЯ АРТПОРТАЛ - Академическая школа живописи и рисунка в городе Владимире. Студия открыта для всех, кто хочет научиться рисовать. Мы не проводим испытательных экзаменов и собеседований, главное от Вас – желание учиться. Возраст не имеет значения, научим всех. Набор в изостудию осуществляется в начале учебного года и дополнительно (при наличии мест) до конца учебного года.
+<h3><strong><a href="http://104.236.233.255/programm/">Основные направления:</a></strong></h3>
+<ol>
+  <li><a href="/programm/index.html#lesson-for-adults">Занятия для взрослых;</a></li>
+  <li><a href="/programm/index.html#lesson-for-children">Занятия для детей (от трех лет);</a></li>
+  <li><a href="/art-therapy">Арт-терапия;</a>
+  <li><a href="/programm/index.html#preparation-for-exams">Подготовка к поступлению в ВУЗ.</a></li>
+</ol>
 
-## This is an H2
 
-### This is an H3
-
-#### This is an H4
-
-##### This is an H5
-
-###### This is an H6
-
-> This is the first level of quoting.
->
-> > This is nested blockquote.
->
-> Back to the first level.
-
-*   Red
-*   Green
-*   Blue
-
-1.  Bird
-2.  McHale
-3.  Parish
-
-*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
-
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
-
-        return shell_exec("echo $input | $markdown_script");
-
-`return shell_exec("echo $input | $markdown_script");`
-
-``There is a literal backtick (`) here.``
-
-***
-
-This is [an example](http://example.com/ "Title") inline link.
-
-[This link](http://example.net/) has no title attribute.
-
-See my [About](/about1/) page for details. 
-
-I get 10 times more traffic from [Google] [1] than from
-[Yahoo] [2] or [MSN] [3].
-
-  [1]: http://google.com/        "Google"
-  [2]: http://search.yahoo.com/  "Yahoo Search"
-  [3]: http://search.msn.com/    "MSN Search"
-
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-
-\*this text is surrounded by literal asterisks\*
-
-A single backtick in a code span: `` ` ``
-
-A backtick-delimited string in a code span: `` `foo` ``
-
-Please don't use any `<blink>` tags.
-
-![Avatar](/img/avatar.png "Avatar")
-
-![Alt text][id]
-
-[id]: /img/avatar.png  "Optional title attribute"
-
-***
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+<h3><strong>Записаться на занятия можно по телефону: 89209376092</strong></h3>
+<h3><strong>Руководитель студии</strong></h3>
+Педагог высшей категории, дизайнер, член союза художников России.
+<h3>Стоимость обучения</h3>
+Стоимость обучения имеет гибкую систему скидок в зависимости от льготной категории, времени и способа оплаты:
+<ul>
+  <li>Для пришедших в сентябре-1500р./месяц;</li>
+  <li>Для многодетных семей-1200р./месяц;</li>
+  <li>Для пенсионеров-1000р./месяц;</li>
+  <li>При наличии сертификата за активное участие в выставках-900р./месяц.</li>
+</ul>
+Стоимость без льгот и сертификатов:
+<ul>
+  <li>Месячный абонемент (8 академических часов) – 1800 рублей;</li>
+  <li>Бессрочный Абонемент (8 академических часов бессрочно) – 2000 рублей;</li>
+  <li>Одно занятие – 300р./час;</li>
+  <li>Мастер-классы оплачиваются отдельно, стоимость зависит от применяемых материалов и длительности.</li>
+</ul>
