@@ -3,6 +3,7 @@ layout: page
 title: Программы
 permalink: /programm/
 order: 2
+feature-img: "img/feature-img/1.jpg"
 ---
 <a name = "lesson-for-adults"></a>
 <h2>Занятия для взрослых</h2>

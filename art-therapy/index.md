@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Арт-терапия
-permalink: /art-therapy
+permalink: /art-therapy/
 order: 2
+feature-img: "img/feature-img/1.jpg"
 ---
 <br>
 <h2>АРТ-ТЕРАПИЯ</h2>
