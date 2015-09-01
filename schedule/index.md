@@ -3,6 +3,7 @@ layout: page
 title: Расписание
 permalink: /schedule/
 order: 4
+feature-img: "img/feature-img/1_1.jpg"
 ---
 
 <div class="span3">
