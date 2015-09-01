@@ -5,8 +5,8 @@ url: "http://artportal.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title:  АртПортал 
-  avatar: avatar.png
+  title:  Изостудия АРТ-портал
+  avatar: logo-mini-invisible.png
   description: # used by search engines
 
   # Header and footer text
@@ -37,6 +37,7 @@ theme:
   twitter:
   wordpress:
   youtube:
+  vk: true "artstud33"
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
