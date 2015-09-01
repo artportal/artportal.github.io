@@ -14,7 +14,7 @@ theme:
      <h1>АртПортал</h1>
      <p>Академическая школа живописи и рисунка</p>
      <p>г. Владимир</p>
-  header_text_feature_image: "img/feature-img/Amur_hmuritsia_1971_27_45.jpg"
+  header_text_feature_image: "img/feature-img/Amur_hmuritsia_1971_27_45_1.jpg"
 
   # Icons
   rss: false
@@ -37,7 +37,7 @@ theme:
   twitter:
   wordpress:
   youtube:
-  vk: true "artstud33"
+  vk: "artstud33"
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
