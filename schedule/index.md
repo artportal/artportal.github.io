@@ -3,10 +3,11 @@ layout: page
 title: Расписание
 permalink: /schedule/
 order: 4
+feature-img: "img/feature-img/1_1.jpg"
 ---
 
 <div class="span3">
-  <h3>List of 2013 Events</h3>
+  <strong>Расписание затятий</strong>
 <div id="upcoming"></div><!--/span-->
 </div>
 <div class="span9">
