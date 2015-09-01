@@ -12,8 +12,8 @@ feature-img: "img/feature-img/Okraina_derevni_1968_60х80.jpg"
 	 data-nav="thumbs"
 	 data-arrows="true">
   <img src="/img/inter/1.jpg">
-  <img src="/img/2.jpg">
-  <img src="/img/3.jpg">
-  <img src="/img/4.jpg">
-  <img src="/img/5.jpg">
+  <img src="/img/inter/2.jpg">
+  <img src="/img/inter/3.jpg">
+  <img src="/img/inter/4.jpg">
+  <img src="/img/inter/5.jpg">
 </div>
