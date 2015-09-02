@@ -7,7 +7,7 @@ feature-img: "img/feature-img/1_1.jpg"
 ---
 
 <div class="span3">
-  <strong>Расписание затятий</strong>
+  <strong>Расписание занятий</strong>
 <div id="upcoming"></div><!--/span-->
 </div>
 <div class="span9">
