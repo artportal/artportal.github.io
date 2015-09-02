@@ -31,6 +31,19 @@ feature-img: "img/feature-img/Okraina_derevni_1968_60х80.jpg"
   <img src="/img/inter/5.jpg">
 </div>
 ***
+<h3>Тест</h3>
+<div class="fotorama"
+    data-width="100%"
+    data-ratio="800/600"
+   data-nav="thumbs"
+   data-arrows="true">
+  <img src="/img/t_children/1.jpg">
+  <img src="/img/t_children/2.jpg">
+  <img src="/img/t_children/3.jpg">
+  <img src="/img/t_children/4.jpg">
+  <img src="/img/t_children/5.jpg">
+</div>
+***
 <h3>Итоги мастер-класса "Пишем маслом"</h3>
 <div class="fotorama"
     data-width="100%"
