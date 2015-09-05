@@ -14,6 +14,10 @@ theme:
      <h1>АртПортал</h1>
      <h3>Академическая школа живописи и рисунка</h3>
      <p>г. Владимир</p> 
+
+  footer_text: >
+     <p>Арт-Портал</p> 
+
   header_text_feature_image: "img/feature-img/Amur_hmuritsia_1971_27_45_3.jpg"
 
   # Icons
