@@ -1,7 +1,7 @@
-name: Рисунки детей
-folder: children
+name: Наши работы
+folder: our_craft
 images:
-  - description: 
+  - description:
     name: 1.jpg
 
   - description:
@@ -15,3 +15,6 @@ images:
 
   - description:
     name: 5.jpg
+
+  - description:
+    name: 6.jpg
