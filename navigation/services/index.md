@@ -3,9 +3,9 @@ layout: page
 title: Услуги
 permalink: /services/
 order: 5
-feature-img: "img/feature-img/Martovskii_sneg_1979_90_103_2.jpg"
+feature-img: "img/feature-img/zeyskaya_GES.jpg"
 ---
-<strong>Услуги в нашей изостудии:</strong>
+<h3>Услуги в нашей изостудии:</h3>
 <ul>
   <li><a href="/programm/index.html#art-therapy">Организация сеансов арт-терапии;</a></li>
   <li>Приобретение художественных материалов для начинающих и опытных художников;</li>
