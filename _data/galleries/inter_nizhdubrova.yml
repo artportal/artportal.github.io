@@ -1,11 +1,11 @@
-name: Интерьер студии на Нижней Дуброве
+name: Интерьер на улице Нижняя Доброва
 folder: inter_nizhdubrova
 images:
-  - description:
+  - description: 
     name: 1.jpg
 
   - description:
-    name: 2.jpg  
+    name: 2.jpg
 
   - description:
     name: 3.jpg
@@ -26,9 +26,9 @@ images:
     name: 8.jpg
 
   - description:
-    name: 9.jpg  
+    name: 9.jpg
 
- - description:
+  - description:
     name: 10.jpg
 
   - description:
