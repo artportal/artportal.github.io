@@ -4,14 +4,15 @@ title: О нас
 feature-text: Информация о студии
 permalink: /about/
 order: 1
-feature-img: "img/feature-img/Tishina.Akademichka_1984_100_53_2.jpg"
+feature-img: "img/feature-img/tishina.akademichka_1984_100_53_2.jpg"
 ---
 <strong>ИЗОСТУДИЯ АРТПОРТАЛ </strong> - Академическая школа живописи и рисунка в городе Владимире. Студия открыта для всех, кто хочет научиться рисовать. Мы не проводим испытательных экзаменов и собеседований, главное от Вас – желание учиться. Возраст не имеет значения, научим всех. Набор в изостудию осуществляется в начале учебного года и дополнительно (при наличии мест) до конца учебного года.
 <h4><strong><a href="/programm/">Основные направления:</a></strong></h4>
 <ol>
   <li><a href="/programm/index.html#lesson-for-adults">Занятия для взрослых;</a></li>
   <li><a href="/programm/index.html#lesson-for-children">Занятия для детей (от трех лет);</a></li>
-  <li><a href="/art-therapy/">Арт-терапия;</a>
+  <li><a href="/programm/index.html#master-class">Мастер-ксассы;</a></li>
+  <li><a href="/art-therapy/">Арт-терапия;</a></li>
   <li><a href="/programm/index.html#preparation-for-exams">Подготовка к поступлению в ВУЗ.</a></li>
 </ol>
 

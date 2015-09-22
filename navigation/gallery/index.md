@@ -3,7 +3,7 @@ layout: page
 title: Галерея
 permalink: /gallery/
 order: 6
-feature-img: "img/feature-img/Okraina_derevni_1968_60_80.jpg"
+feature-img: "img/feature-img/okraina_derevni_1968_60_80.jpg"
 ---
 
 {% for gallery_hash in site.data.galleries %}
