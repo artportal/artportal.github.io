@@ -11,7 +11,7 @@ feature-img: "img/feature-img/Tishina.Akademichka_1984_100_53_2.jpg"
 <ol>
   <li><a href="/programm/index.html#lesson-for-adults">Занятия для взрослых;</a></li>
   <li><a href="/programm/index.html#lesson-for-children">Занятия для детей (от трех лет);</a></li>
-  <li><a href="/art-therapy">Арт-терапия;</a>
+  <li><a href="/art-therapy/">Арт-терапия;</a>
   <li><a href="/programm/index.html#preparation-for-exams">Подготовка к поступлению в ВУЗ.</a></li>
 </ol>
 

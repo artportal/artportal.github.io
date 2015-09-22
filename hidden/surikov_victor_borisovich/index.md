@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Суриков Виктор Борисович
-permalink: /surikov/
+permalink: /surikov_victor_borisovich/
 order: 3
 hide: true
-feature-img: "img/feature-img/Martovskii_sneg_1979_90_103_2.jpg"
+feature-img: "img/feature-img/zeyskaya_GES_1.jpg"
 ---
 <strong></strong> 
