@@ -3,7 +3,7 @@ layout: page
 title: Услуги
 permalink: /services/
 order: 5
-feature-img: "img/feature-img/zeyskaya_GES.jpg"
+feature-img: "img/feature-img/zeyskaya_ges.jpg"
 ---
 <h3>Услуги в нашей изостудии:</h3>
 <ul>
