@@ -2,15 +2,8 @@
 layout: post
 title: Открытие новой выставки
 ---
+![levitan_zolotaya_osen](/img/Levitan_Zolotaya_Osen.jpg "Золотая осень")
+
 С 14 октября в Центральной детской библиотеке ( ул. Большая Московская, 31) открывается выставка наших работ, на осеннюю тематику. Вход свободный, там всем рады.
-===
--> ![library](/img/library.png "Библиотека") <-
-===
--> ![levitan_zolotaya_osen](/img/Levitan_Zolotaya_Osen.jpg "Золотая осень") <-
--> Золотая осень <-
-===
--> ![levitan_sokolniki_autumn_1879](/img/Levitan_Sokolniki_Autumn_1879.jpg "Золотая осень") <-
--> Осенний день. Сокольники <-
 
-
-
+![library](/img/library.png "Библиотека")
