@@ -8,7 +8,7 @@ feature-img: "img/feature-img/zeyskaya_GES_1.jpg"
 ---
 
 <img src="/img/surikov_victor_borisovich/surikov_victor_borisovich.jpg" 
-  align="left" width="476" height="600" alt="surikov_victor_borisovich">
+  align="left" width="317" height="400" alt="surikov_victor_borisovich">
   <strong>Суриков Виктор Борисович (1940-1985).</strong>
   {% assign gallery = surikov_victor_borisovich %}
   <h3>{{gallery.name}}</h3>
