@@ -10,6 +10,13 @@ feature-img: "img/feature-img/amur_hmuritsia_1971_27_45_1.jpg"
 <h3>Занятия для взрослых:</h3>
  Мы предлагаем программы для взрослых, имеющих различный уровень подготовки. В том числе проводим обучение рисованию «с нуля». Обучение планируется в зависимости от задачи, которую Вы ставите перед собой.
 
+<h3>Примеры натюрмортов:</h3>
+<div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/600" data-nav="thumbs" data-arrows="true" data-maxwidth="400" data-maxheight="600" align="center">
+      <img src="/img/nature-morte/1.jpg"> 
+      <img src="/img/nature-morte/2.jpg"> 
+      <img src="/img/nature-morte/3.jpg"> 
+  </div>
+
 ***
 <a name = "lesson-for-children"></a>
 <h3>Занятия для детей от трех лет:</h3>
