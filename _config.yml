@@ -55,9 +55,9 @@ theme:
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_next: "Следующая"
+  str_prev: "Предыдущая"
+  str_continue_reading: "Читать далее"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
