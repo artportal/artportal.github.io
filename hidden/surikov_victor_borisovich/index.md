@@ -4,7 +4,7 @@ title: Суриков Виктор Борисович
 permalink: /surikov_victor_borisovich/
 order: 3
 hide: true
-feature-img: "img/feature-img/zeyskaya_GES_1.jpg"
+feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
 ---
 <div>
   <img src="/img/surikov_victor_borisovich/surikov_victor_borisovich.jpg"  style=" margin: 0 5px;" width="200px" height="252px" alt="surikov_victor_borisovich" align="left" vspace="5px" hspace="5px">
