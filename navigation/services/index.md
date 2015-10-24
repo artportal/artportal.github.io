@@ -12,13 +12,27 @@ feature-img: "img/feature-img/zeyskaya_ges.jpg"
   <li>Работы на заказ (портреты,услуги дизайнера, роспись стен, аквагрим и мехенди);</li>
 </ul>
 
-<h3>Товары для художников</h3>
-<strong>Мольберты:</strong>
-<img src="/img/easel/bigslapstick.jpg" 
-  align="left" width="250" height="400" alt="мольберт хлопушка">
-<img src="/img/easel/hlop.jpg" 
-  align="right" width="250" height="400" alt="мольберт хлопушка">
-<img src="/img/easel/lira.jpg" 
-  align="left" width="250" height="400" alt="мольберт лира">
-<img src="/img/easel/tablelira.jpg" 
-  align="right" width="250" height="400" alt="мольберт лира">
+<h3>Товары для художников:</h3>
+<ul><li><strong>Мольберты:</strong></li></ul>
+<table class="noborder" >
+	<tr>
+		<td><img src="/img/easel/bigslapstick.jpg" 
+   width="250" height="400" alt="мольберт хлопушка"></td>
+  	<td><img src="/img/easel/hlop.jpg" 
+   width="250" height="400" alt="мольберт хлопушка"></td>
+	</tr>
+	<tr>
+		<td>Большая хлопушка</td>
+		<td>Малая хлопушка</td>
+	</tr>
+	<tr>
+		<td><img src="/img/easel/lira.jpg" 
+  width="250" height="400" alt="мольберт лира"></td>
+  		<td><img src="/img/easel/tablelira.jpg" 
+   width="250" height="400" alt="мольберт лира"></td>
+	</tr>
+	<tr>
+		<td>Лира напольная</td>
+		<td>Лира настольная</td>
+	</tr>
+</table>

@@ -63,6 +63,15 @@ th {
   border: 1px solid $border-color;
   text-align: left;
 }
+
+.noborder{
+  td,
+  th {
+  padding: 0.5em 1em;
+  border: 0px solid $border-color;
+  text-align: center;
+}
+}
 table,
 dl,
 blockquote,
