@@ -9,4 +9,4 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 
 <center><h3>Расписание занятий на Нижней Дуброве</h3></center>
 <img src="/img/scheduler.jpg" 
-  align="center" width="818" height="801" alt="Расписание занятий">
+  align="center" width="100%" height="100%" alt="Расписание занятий">
