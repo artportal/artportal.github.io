@@ -10,3 +10,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 <center><h3>Расписание занятий на Нижней Дуброве</h3></center>
 <img src="/img/scheduler.jpg" 
   align="center" width="100%" height="100%" alt="Расписание занятий">
+<center><h3>Расписание занятий на Суздальском проспекте</h3></center>
+
+<center><h3>Расписание занятий на улице Спасской</h3></center>
+<iframe src="https://calendar.google.com/calendar/embed?src=dm8tsqco3shpvr2loagjg343fg%40group.calendar.google.com&ctz=Europe/Moscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
