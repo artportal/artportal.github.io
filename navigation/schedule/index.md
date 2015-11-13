@@ -10,7 +10,15 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 <center><h3>Расписание занятий на Нижней Дуброве</h3></center>
 <img src="/img/scheduler.jpg" 
   align="center" width="100%" height="100%" alt="Расписание занятий">
-<center><h3>Расписание занятий на Суздальском проспекте</h3></center>
+<center><h3>Расписание занятий на Суздальском проспекте и улице Спасской</h3></center>
 
-<center><h3>Расписание занятий на улице Спасской</h3></center>
-<iframe src="https://calendar.google.com/calendar/embed?src=dm8tsqco3shpvr2loagjg343fg%40group.calendar.google.com&ctz=Europe/Moscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+| Дни| Спасская,д.4  | Суздальский проспект,д.11а|
+| :-:|:-------------:| :------------------:|
+| ПН | 10-12;15-18   | 15-19|
+| ВТ |               | |
+| СР | 15-18     | 15-19 |
+| ЧТ |       |  |
+| ПТ | 15-18      | 15-17 |
+| СБ | 10-12      |  |
+
+
