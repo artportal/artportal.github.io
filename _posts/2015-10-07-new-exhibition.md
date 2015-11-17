@@ -14,3 +14,4 @@ title: Открытие новой выставки
       <img src="/img/exhibitions/14-10-15/3.jpg"> 
       <img src="/img/exhibitions/14-10-15/4.jpg"> 
   </div>
+

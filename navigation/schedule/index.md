@@ -18,7 +18,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<th>ЧТ</th>
 		<th>ПТ</th>
 		<th>СБ</th>
-		<th>ВС</th>
+		<th  width="10%">ВС</th>
 	</tr><!-- Table Header -->
     
 	<tr>
@@ -158,31 +158,3 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 </table>
 
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter26853771 = new Ya.Metrika({
-                    id:26853771,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/26853771" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
