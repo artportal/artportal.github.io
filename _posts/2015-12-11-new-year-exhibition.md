@@ -6,8 +6,6 @@ title: Зимняя выставка открылась в Центрально�
 <img src="/img/post/2015-12-11/new-year.jpg " 
   align="center"  width="100%" height="100%" alt="Зимняя выставка в Центральной детской библиотеке.">
 
-![library](/img/library.png "Библиотека")
-
 <h3>Наши работы и выставка:</h3>
 <div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/600" data-nav="thumbs" data-arrows="true">
       <img src="/img/exhibitions/11-12-15/1.jpg" alt="Зимний кот Арт Портал"> 
