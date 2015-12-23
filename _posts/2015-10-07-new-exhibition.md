@@ -9,9 +9,9 @@ title: Открытие новой выставки
 
 <h3>Фотоотчет о выставке:</h3>
 <div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/600" data-nav="thumbs" data-arrows="true">
-      <img src="/img/exhibitions/14-10-15/1.jpg"> 
-      <img src="/img/exhibitions/14-10-15/2.jpg"> 
-      <img src="/img/exhibitions/14-10-15/3.jpg"> 
-      <img src="/img/exhibitions/14-10-15/4.jpg"> 
+      <img src="/img/exhibitions/2015-10-14/1.jpg"> 
+      <img src="/img/exhibitions/2015-10-14/2.jpg"> 
+      <img src="/img/exhibitions/2015-10-14/3.jpg"> 
+      <img src="/img/exhibitions/2015-10-14/4.jpg"> 
   </div>
 
