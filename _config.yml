@@ -5,7 +5,7 @@ url: "http://artportal.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title:  Изостудия Арт Портал. Рисование для детей и взрослых|г.Владимир
+  title:  Изостудия Арт Портал.
   avatar: logo-mini-invisible.png
   description: # used by search engines
 
@@ -17,7 +17,7 @@ theme:
      <p>г. Владимир</p> 
 
   footer_text: >
-     <p>Изостудия Арт Портал г.Владимир</p>
+     <p>Изостудия Арт Портал. Рисование для детей и взрослых г.Владимир</p>
      В оформлении сайта используются фрагменты картин 
      хужожника <a href="/surikov_victor_borisovich/">Сурикова Виктора Борисовича.</a> 
 
