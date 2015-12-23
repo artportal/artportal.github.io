@@ -5,7 +5,7 @@ url: "http://artportal.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title:  Изостудия Арт Портал.
+  title:  Изостудия Арт Портал
   avatar: logo-mini-invisible.png
   description: # used by search engines
 
