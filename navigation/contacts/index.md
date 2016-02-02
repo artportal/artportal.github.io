@@ -10,7 +10,7 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 1.   Владимир, Суздальский проспект, дом 11а.
 2.   Владимир,улица Нижняя Дуброва, дом 17а, кв 5.
 3.   Владимир, ул. Спасская, дом 4, 3 этаж каб. 2.
-<p>Телефон +7 (920) 937-60-92</p>
+<p>Телефон +7(920)937-60-92
 
 <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=VpsWRI1okkddDE7pzwpYwy9XI-ZdKCoT&width=653&height=463&lang=ru_RU&sourceType=constructor"></script>
 
@@ -20,5 +20,5 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 <dl><dt><a href="http://www.klyaksa33shop.ru/"><img src="/img/klyaksa.png" 
   align="left"  max-widdth="100" width="15%" height="15%" alt="Клякса"> </a>
 </dt>
-<dd> "Клякса" магазин товаров для художников во Владимире. Адрес в интернете <a href="http://www.klyaksa33shop.ru/">http://www.klyaksa33shop.ru/</a> </dd>
+<dd> "Клякса" магазин товаров для художников во Владимире. Адрес в интернете <a href="http://www.klyaksa33shop.ru/">www.klyaksa33shop.ru/</a> </dd>
 </dl>
