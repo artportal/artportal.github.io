@@ -19,11 +19,3 @@ feature-img: "img/feature-img/tishina.akademichka_1984_100_53_2.jpg"
 <h4><strong>Записаться на занятия можно по телефону: +7(960)937-60-92</strong></h4>
 <h4><strong>Руководитель студии:</strong></h4>
 Педагог высшей категории, дизайнер, член союза художников России.
-
-<h4>Наши партнеры:</h4>
-
-<dl><dt><a href="http://www.klyaksa33shop.ru/"><img src="/img/klyaksa.png" 
-  align="left"  max-widdth="100" width="15%" height="15%" alt="Клякса"> </a>
-</dt>
-<dd> "Клякса" магазин товаров для художников во Владимире. Адрес в интернете <a href="http://www.klyaksa33shop.ru/">www.klyaksa33shop.ru/</a> </dd>
-</dl>
