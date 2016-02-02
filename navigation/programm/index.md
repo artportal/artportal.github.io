@@ -11,7 +11,7 @@ feature-img: "img/feature-img/amur_hmuritsia_1971_27_45_1.jpg"
  Мы предлагаем программы для взрослых, имеющих различный уровень подготовки. В том числе проводим обучение рисованию «с нуля». Обучение планируется в зависимости от задачи, которую Вы ставите перед собой.
 
 <h3>Примеры натюрмортов:</h3>
-<div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/600" data-nav="thumbs" data-arrows="true" data-maxwidth="400" data-maxheight="600" align="center">
+<div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/600" data-nav="thumbs" data-arrows="true" data-maxwidth="500" data-maxheight="700" align="center">
       <img src="/img/nature-morte/1.jpg"> 
       <img src="/img/nature-morte/2.jpg"> 
       <img src="/img/nature-morte/3.jpg"> 
@@ -21,7 +21,7 @@ feature-img: "img/feature-img/amur_hmuritsia_1971_27_45_1.jpg"
 <a name = "lesson-for-children"></a>
 <h3>Занятия для детей от трех лет:</h3>
 <img src="/img/children.jpg" 
-  align="left"  max-widdth="400" width="100%" height="100%" alt="Рисование изо для детей изостудия Арт Портал Владимир">
+  align="left"  max-width="400px" width="50%" height="50%" alt="Рисование изо для детей изостудия Арт Портал Владимир">
 Программа для детей дает огромные возможности для развития творческого потенциала. Ребенок требует особого подхода в каждом возрасте, поэтому мы учитываем все возрастные и физиологические особенности. Принимаем детей с 3 лет.
 
 Главные принципы, на которых основана наша программа – это развитие художественных способностей, эстетического вкуса, наблюдательности, творческого воображения, пространственного мышления, воспитание интереса и любви к искусству, умение видеть мир глазами художника.

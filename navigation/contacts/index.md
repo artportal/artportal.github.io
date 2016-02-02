@@ -13,3 +13,12 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 <p>Телефон +7 (920) 937-60-92</p>
 
 <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=VpsWRI1okkddDE7pzwpYwy9XI-ZdKCoT&width=653&height=463&lang=ru_RU&sourceType=constructor"></script>
+
+<br/>
+<strong>Наши партнеры:</strong>
+
+<dl><dt><a href="http://www.klyaksa33shop.ru/"><img src="/img/klyaksa.png" 
+  align="left"  max-widdth="100" width="15%" height="15%" alt="Клякса"> </a>
+</dt>
+<dd> "Клякса" магазин товаров для художников во Владимире. Адрес в интернете <a href="http://www.klyaksa33shop.ru/">http://www.klyaksa33shop.ru/</a> </dd>
+</dl>
