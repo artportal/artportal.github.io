@@ -11,14 +11,14 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
-		<th width="16%">Время</th>
+		<th width="17%">Время</th>
 		<th>ПН</th>
 		<th>ВТ</th>
 		<th>СР</th>
 		<th>ЧТ</th>
 		<th>ПТ</th>
 		<th>СБ</th>
-		<th  width="12%">ВС</th>
+		<th  width="11%">ВС</th>
 	</tr><!-- Table Header -->
     
 	<tr>
@@ -49,7 +49,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 		<td></td>
 		<td></td>
-		<td>Взросл.</td>
+		<td>Взросл</td>
 	</tr><!-- Table Row -->
 	<tr class='even'>
 		<th>14:00-14:45</th>
