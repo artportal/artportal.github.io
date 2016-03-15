@@ -12,7 +12,7 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 3.   Владимир, ул. Студеная Гора, дом 36, 2 этаж каб. 127.
 <p>Телефон +7(920)937-60-92
 
-<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=HD2hllOJROiydC0KfQk8pBJNUgPW3Uwk&width=478&height=398&lang=ru_RU&sourceType=constructor"></script>
+<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=HD2hllOJROiydC0KfQk8pBJNUgPW3Uwk&width=568&height=398&lang=ru_RU&sourceType=constructor"></script>
 
 <br/>
 <strong>Наши партнеры:</strong>
