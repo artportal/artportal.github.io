@@ -114,20 +114,20 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 </table>
 
 <a name = "schedule-spasskaya-i-suzdalsky"></a>
-<center><h3>Режим работы студий на улице Спасской и Суздальском проспекте</h3></center>
+<center><h3>Режим работы студий на улице Студеная Гора и Суздальском проспекте</h3></center>
 
 
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="18%">Дни</th>
-		<th>Спасская, д.4</th>
+		<th>Студеная Гора, д.36</th>
 		<th>Суздальский пр-т, д.11а</th>
 	</tr><!-- Table Header -->
     
 	<tr>
 		<th>ПН</th>
-		<td>10:00-12:00
-			<br/>15:00-18:00
+		<td>10:00-11:00
+			<br/>15:00-19:00
 		</td>
 		<td>15:00-19:00</td>
 	</tr><!-- Table Row -->
@@ -138,7 +138,9 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 	</tr><!-- Darker Table Row -->
 	<tr>
 		<th>СР</th>
-		<td>15:00-18:00</td>
+		<td>10:00-11:00
+			<br/>15:00-19:00
+		</td>
 		<td>15:00-19:00</td>
 	</tr><!-- Table Row -->
 	<tr class='even'>
@@ -147,12 +149,12 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	<tr>
 		<th>ПТ</th>
-		<td>15:00-18:00</td>
+		<td>15:00-19:00</td>
 		<td>15:00-17:00</td>
 	</tr><!-- Table Row -->
 	<tr class='even'>
 		<th>СБ</th>
-		<td>10:00-12:00</td>
+		<td>10:00-13:00</td>
 		<td></td>
 	</tr><!-- Darker Table Row -->
 </table>
