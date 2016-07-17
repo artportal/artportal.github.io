@@ -8,12 +8,14 @@ feature-img: "img/feature-img/zeyskaya_ges.jpg"
 <h3>Услуги в нашей изостудии:</h3>
 <ul>
   <li><a href="/art-therapy/">Организация сеансов арт-терапии;</a></li>
-  <li>Оформление работ в багет;</li>
-  <li>Работы на заказ (портреты,услуги дизайнера, роспись стен, аквагрим и мехенди);</li>
+  <li>Все виды дизайна;</li>
+  <li>Выполнение художественных работ на заказ;</li>
 </ul>
 
 <h3>Товары для художников:</h3>
-<ul><li><strong>Мольберты:</strong></li></ul>
+<ul>
+	<li><strong>Рамки со стеклом</strong></li>
+	<li><strong>Мольберты:</strong></li>
 <table class="noborder" >
 	<tr>
 		<td><img src="/img/easel/bigslapstick.jpg" 
@@ -36,3 +38,4 @@ feature-img: "img/feature-img/zeyskaya_ges.jpg"
 		<td>Лира настольная</td>
 	</tr>
 </table>
+</ul>

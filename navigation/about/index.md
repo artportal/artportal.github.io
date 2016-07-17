@@ -16,7 +16,5 @@ feature-img: "img/feature-img/tishina.akademichka_1984_100_53_2.jpg"
   <li><a href="/programm/index.html#preparation-for-exams">Подготовка к поступлению в ВУЗ.</a></li>
   <li><a href="/programm/index.html#school-of-design">Проект "Школа ДИЗАЙНА".</a></li>
 </ol>
-
-<h4><strong>Записаться на занятия можно по телефону: 89609376092</strong></h4>
 <h4><strong>Руководитель студии:</strong></h4>
 Педагог высшей категории, дизайнер, член союза художников России.
