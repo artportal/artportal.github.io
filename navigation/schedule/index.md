@@ -35,4 +35,3 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td>10:00-13:00</td>
 	</tr><!-- Darker Table Row -->
 </table>
-<p>В студиях по адресам улица Нижняя Дуброва и Суздальский проспект каникулы до 5 сентября.</p>
