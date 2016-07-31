@@ -6,6 +6,7 @@ order: 3
 feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 ---
 <h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Студеная Гора</h3>
+
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="18%">Дни</th>
