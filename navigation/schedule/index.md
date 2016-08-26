@@ -6,7 +6,7 @@ order: 3
 feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 ---
 <p align="justify">Просим обратить внимание на рекомендательный характер временного расписания. Если Вам не удобны данные дни и часы, приходите в другое указанное время и обращайтесь к преподавателю. Постоянное расписание на весь учебный год появится к концу сентября. По мере формирования групп и благодаря вашим пожеланиям мы его расширим и сделаем более удобным.</p>
-<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Студеная Гора на сентябрь </h3>
+<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Студеная Гора на сентябрь 2016</h3>
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="17%">Время</th>
@@ -109,7 +109,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	</tr><!-- Table Row -->
 </table>
-<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии в Добром</h3>
+<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии в Добром на сентябрь 2016</h3>
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="17%">Время</th>
@@ -212,7 +212,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	</tr><!-- Table Row -->
 </table>
-<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Нижняя Дуброва</h3>
+<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Нижняя Дуброва на сентябрь 2016</h3>
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="17%">Время</th>
