@@ -79,10 +79,9 @@ defaults:
 paginate: 5
 paginate_path: "blog/page:num"
 
-gems: ["jekyll-paginate"]
+gems: [jekyll-paginate]
 
 # BUILD SETTINGS
-markdown: kramdown
 sass:
   sass_dir: _sass
   style: :compressed
