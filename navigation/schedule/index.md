@@ -109,7 +109,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	</tr><!-- Table Row -->
 </table>
-<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии в Добром на сентябрь 2016</h3>
+<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии в Добром (возможны изменения в расписании)</h3>
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="17%">Время</th>
@@ -212,7 +212,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	</tr><!-- Table Row -->
 </table>
-<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Нижняя Дуброва на сентябрь 2016</h3>
+<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Нижняя Дуброва</h3>
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="17%">Время</th>
