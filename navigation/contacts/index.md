@@ -7,13 +7,13 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 ---
 <b>Адреса наших студий:</b>
 
-1.   Владимир, Суздальский проспект, дом 11а.
-2.   Владимир,улица Нижняя Дуброва, дом 17а, кв 5.
+1.   Владимир, ул. Комиссарова, дом 28 (вход со двора).
+2.   Владимир, ул. Нижняя Дуброва, дом 17а, кв 5.
 3.   Владимир, ул. Студеная Гора, дом 36, 2 этаж каб. 127.
 
 <p>Телефон <a href="tel:+79209376092">8(920)937-60-92</a>, <a href="tel:+74922600181">600-181.</a></p>
 
 <p>Арт Портал в социальной сети <a href="https://vk.com/artstud33">ВКонтакте</a>.</p>
 
-<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=HD2hllOJROiydC0KfQk8pBJNUgPW3Uwk&width=568&height=398&lang=ru_RU&sourceType=constructor"></script>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=HD2hllOJROiydC0KfQk8pBJNUgPW3Uwk&amp;width=596&amp;height=331&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 <br/>
