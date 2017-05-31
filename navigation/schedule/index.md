@@ -6,7 +6,7 @@ order: 3
 feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 ---
 <p align="justify">Расписание занятий по программе «АРТ-ЛЕТО» в 2017 году*</p>
-<h3 id = "schedule-spasskaya-i-suzdalsky" align="center">Режим работы студии на улице Студеная Гора</h3>
+<h3 id = "schedule-spasskaya-i-suzdalsky" style="text-align:center;">Режим работы студии на улице Студеная Гора</h3>
 <table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 	<tr>
 		<th width="20%">Время</th>
@@ -80,4 +80,3 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	</tr><!-- Table Row -->
 </table>
-<div>*Летом занятия проводятся только в студии на Студеной Горе.</div>
