@@ -52,6 +52,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td>+</td>
 		<td>+</td>
 		<td></td>
+	</tr>
 	<tr>
 		<th>17:15-18:00</th>
 		<td>+</td>
@@ -78,4 +79,6 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td>+</td>
 		<td>+</td>
 		<td></td>
-	</tr><!-- Table Row --></table>
+	</tr><!-- Table Row -->
+</table>
+<div>*Летом занятия проводятся только в студии на Студеной Горе.</div>
