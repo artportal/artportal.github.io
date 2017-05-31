@@ -78,5 +78,4 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td>+</td>
 		<td>+</td>
 		<td></td>
-	</tr><!-- Table Row -->
-</table>
+	</tr><!-- Table Row --></table>
