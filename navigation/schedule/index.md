@@ -62,7 +62,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	</tr><!-- Table Row -->
 	<tr class='even'>
-		<th>18:80-18:45</th>
+		<th>18:00-18:45</th>
 		<td></td>
 		<td>+</td>
 		<td>+</td>
@@ -71,7 +71,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		<td></td>
 	</tr><!-- Darker Table Row -->
 	<tr>
-		<th>18:80-18:45</th>
+		<th>18:45-19:30</th>
 		<td></td>
 		<td>+</td>
 		<td>+</td>
