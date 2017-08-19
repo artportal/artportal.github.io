@@ -1,0 +1,52 @@
+.gray-table{
+	margin:20px 0;
+	color: #2d2b2b;
+	font-size: 16px;
+}
+
+.gray-table th{
+	padding: 10px;
+}
+
+.gray-table tr:first-child th{
+	padding: 20px 10px;
+}
+
+.gray-table th:first-child{
+	padding-left: 10px;
+}
+
+.gray-table tr td{
+	padding: 10px;
+}
+
+.feature-image .post-content,
+.post-content{
+	margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px 0;
+}
+
+
+@media all and (max-width: 1000px){
+	.feature-image .post-content,
+	.post-content{
+	    padding: 0 20px;
+	}
+}
+
+
+
+/****************************schedule*****************************/
+.schedule{
+
+}
+
+.schedule__item{
+	margin-bottom: 50px;
+}
+
+.schedule__title{
+	margin: 40px 0 20px 0;
+}
+
