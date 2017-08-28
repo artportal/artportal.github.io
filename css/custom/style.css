@@ -50,3 +50,71 @@
 	margin: 40px 0 20px 0;
 }
 
+/****************************schedule*****************************/
+
+.teachers,
+.teachers *{
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.teachers{
+	margin:30px 0;
+}
+
+.teachers-wrap{
+	font-size: 0;
+	line-height: 0;
+	margin-left: -4%;
+}
+
+.teachers__item-wrap{
+	width: 50%;
+	display: inline-block;
+	padding-left: 4%;
+	margin-bottom: 40px;
+}
+
+.teachers__item{padding: 25px 25px;background: #fff;border-radius: 10px;box-shadow: 3px 4px 11px rgba(0,0,0,0.4);}
+
+.teachers__images{
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.teachers__images img{
+	width: 100%;
+}
+
+.teachers__name{
+	width: 70%;
+	width: calc(100% - 150px);
+	display: inline-block;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 20px;
+	height: 130px;
+	overflow: hidden;
+}
+
+.teachers__name-wrap{
+	display: table-cell;
+	vertical-align: middle;
+	height: 130px;
+}
+
+.teachers__text{
+	margin: 20px 0 0 0;
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+}
