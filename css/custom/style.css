@@ -76,7 +76,7 @@
 }
 
 .teachers__item{
-	height: 316px;
+	/*height: 336px;*/
 	padding: 23px 23px 17px 23px;
 	background: #fff;
 	border-radius: 10px;
@@ -144,4 +144,22 @@
 
 .teachers__link a{
 	color:inherit;
+}
+
+.teachers__gallery{
+	text-align: center;
+}
+
+.teachers__gallery-name{
+	margin: 50px 0 25px 0;
+}
+
+.teachers__gallery .fotorama__wrap{
+	margin: 0 auto;
+}
+
+@media all and (max-width: 850px){
+	.teachers__item-wrap{
+		width: 100%;
+	}
 }
