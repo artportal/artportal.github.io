@@ -125,7 +125,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 		</table>
 	</div>
 	<div class="schedule__item">
-		<h3 class="schedule__title" id = "schedule-egorova" style="text-align:center;">Режим работы студии по адресу ул.Егорова, дом 10а</h3>
+		<h3 class="schedule__title" id = "schedule-egorova" style="text-align:center;">Режим работы студии по адресу ул.Егорова, дом 10</h3>
 		<table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 			<tr>
 				<th style="width: 15%;">Время</th>
@@ -159,13 +159,11 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 					13-15 лет
 				</td>
 				<td></td>
-				<td></td>
 				<td>8-12 лет
 					<br /> 
-					13-15 лет
-				</td>
-				<td>
-				</td>
+					13-15 лет</td>
+				<td></td>
+				<td></td>
 				<!-- Darker Table Row -->
 			</tr>
 			<tr>
