@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
 .gray-table{
 	margin:20px 0;
 	color: #2d2b2b;
@@ -162,4 +163,91 @@
 	.teachers__item-wrap{
 		width: 100%;
 	}
+}
+
+/***************contacts****************/
+.contacts{
+	margin-left: -40px;
+	font-size: 0;
+	line-height: 0;
+}
+.contacts__item-wrap{
+	
+width: 50%;
+	
+padding-left: 40px;
+	
+display: inline-block;
+	
+vertical-align: top;
+	
+margin-bottom: 20px;
+}
+
+.contacts__item-wrap--main{
+
+width: 100%;
+}
+.contacts__item{
+	
+font-size: 16px;
+	
+line-height: 22px;
+}
+
+
+.contacts__content{
+	
+margin-bottom: 20px;
+}
+
+.contacts__content-item{
+	
+margin-bottom: 15px;
+}
+.contacts__name{
+	
+font-weight: bold;
+	
+font-size: 17px;
+	
+display: inline-block;
+	
+margin-right: 6px;
+}
+
+.contacts__value{
+	
+display: inline-block;
+}
+
+.contacts__map{
+	
+margin: 20px 0;
+@import url(
+	
+'https: //fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+	
+border-radius: 10px;
+	
+overflow: hidden;
+}
+
+.contacts__map iframe{
+	border:none;
+	width: 100%;
+	height: 350px;
+}
+
+.contacts .vk{
+	vertical-align: top;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+	width: 28px;
+	height: 28px;
+	background: url('../../img/custom/soc_icon.png') no-repeat;
+	background-position: 0 0;
+	transition: opacity 0.2s;
+	margin-top: -3px;
 }
