@@ -1,4 +1,127 @@
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+
+
+/******************************common***************************/
+html{
+	min-width:1000px
+}
+.container{
+
+}
+
+.cf{
+	max-width: 960px;
+	width: 100%;
+	margin:0 auto;
+}
+
+
+/************************************header************************************************/
+.branding{
+
+display: block;
+
+margin-left: -20px;
+
+padding: 20px 0;
+}
+
+.branding__item_wrap{
+	padding-left:20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header__title{
+	
+width: 58%;
+}
+
+.header__phone .branding__item{
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 11px;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 600;
+}
+.header__phone .branding__item:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0,-50%);
+	width: 24px;
+	height: 24px;
+	background: url('../../img/custom/phone-call.png') no-repeat;
+}
+
+.header__phone .branding__item.mobile:after{
+	background: url('../../img/custom/smartphone-call.png') no-repeat;
+}
+
+
+.branding__item{
+
+}
+
+.logo__link{
+	
+}
+
+.site-header{
+	float: none;
+	display: block;
+	width: 100%;
+	padding: 0;
+}
+
+.site-header a{
+
+}
+
+
+.site-header .site-title{
+	float:none;
+	display: inline-block;
+}
+
+.site-header .logo{
+	
+float: none;
+	
+width: 130px;
+}
+
+
+
+.site-nav{
+	display: block;
+	width: 100%;
+	float: none;
+	margin: 10px 0 20px 0;
+}
+
+.site-header .site-nav ul{
+	float:none;
+	padding-top: 0;
+}
+
+.site-header .site-nav li{
+	float:none;
+}
+
+.site-header .site-nav li a{
+	float:none;
+	transition:all 0.3s;
+	color: #000;
+}
+.site-header .site-nav li a:hover{
+	opacity:0.8;
+	text-decoration:none;
+}
+
 .gray-table{
 	margin:20px 0;
 	color: #2d2b2b;
@@ -23,9 +146,9 @@
 
 .feature-image .post-content,
 .post-content{
-	margin: 0 auto;
-    max-width: 1000px;
-    padding: 20px 0;
+	margin: 20px auto;
+	max-width: 960px;
+	padding: 0;
 }
 
 
@@ -224,10 +347,7 @@ display: inline-block;
 .contacts__map{
 	
 margin: 20px 0;
-@import url(
-	
-'https: //fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
-	
+
 border-radius: 10px;
 	
 overflow: hidden;
@@ -250,4 +370,16 @@ overflow: hidden;
 	background-position: 0 0;
 	transition: opacity 0.2s;
 	margin-top: -3px;
+}
+/***************************post*************************/
+
+.posts .post-teaser{
+
+display: block;
+
+max-width: 960px;
+
+margin: 28px auto;
+
+padding: 0;
 }
