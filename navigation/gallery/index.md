@@ -11,7 +11,7 @@ feature-img: "img/feature-img/okraina_derevni_1968_60_80.jpg"
   <h3>{{gallery.name}}</h3>
   <div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/600" data-nav="thumbs" data-arrows="true">
     {% for image in gallery.images %}
-      <img src="/img/{{gallery.folder}}/{{image.name}}">  
+      <img src="{{ site.baseurl }}/img/{{gallery.folder}}/{{image.name}}">  
     {% endfor %}
   </div>
   ***
