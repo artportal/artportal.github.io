@@ -16,8 +16,8 @@ title: Продолжаем набор на новый учебный год!
 	<li>Декоративно-прикладное искусство</li>
 	<li>Все виды дизайна</li>
 </ul>
-<p><a href="/schedule/">Расписание занятий на 2017-2018 учебный год.</a></p>
-<p style="text-align: center;"><img src="/img/post/2016-07-15/new-season.jpg" alt="Арт Портал новый учебный год"></p>
+<p><a href="{{ site.baseurl }}/schedule/">Расписание занятий на 2017-2018 учебный год.</a></p>
+<p style="text-align: center;"><img src="{{ site.baseurl }}/img/post/2016-07-15/new-season.jpg" alt="Арт Портал новый учебный год"></p>
 <p style="font-weight: bold;">Занятия будут проходить в студиях:</p>
 <ul>
 	<li>Нижняя Дуброва, дом 17а, кв 5.</li>

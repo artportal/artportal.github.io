@@ -7,7 +7,7 @@ feature-img: "img/feature-img/zeyskaya_ges.jpg"
 ---
 <h3>Услуги в нашей изостудии:</h3>
 <ul>
-  <li><a href="/art-therapy/">Организация сеансов арт-терапии;</a></li>
+  <li><a href="{{ site.baseurl }}/art-therapy/">Организация сеансов арт-терапии;</a></li>
   <li>Все виды дизайна;</li>
   <li>Выполнение художественных работ на заказ;</li>
 </ul>
@@ -18,9 +18,9 @@ feature-img: "img/feature-img/zeyskaya_ges.jpg"
 	<li><strong>Мольберты:</strong></li>
 <table class="noborder" >
 	<tr>
-		<td><img src="/img/easel/bigslapstick.jpg" 
+		<td><img src="{{ site.baseurl }}/img/easel/bigslapstick.jpg" 
    width="250" height="400" alt="мольберт хлопушка"></td>
-  	<td><img src="/img/easel/hlop.jpg" 
+  	<td><img src="{{ site.baseurl }}/img/easel/hlop.jpg" 
    width="250" height="400" alt="мольберт хлопушка"></td>
 	</tr>
 	<tr>
@@ -28,9 +28,9 @@ feature-img: "img/feature-img/zeyskaya_ges.jpg"
 		<td>Малая хлопушка</td>
 	</tr>
 	<tr>
-		<td><img src="/img/easel/lira.jpg" 
+		<td><img src="{{ site.baseurl }}/img/easel/lira.jpg" 
   width="250" height="400" alt="мольберт лира"></td>
-  		<td><img src="/img/easel/tablelira.jpg" 
+  		<td><img src="{{ site.baseurl }}/img/easel/tablelira.jpg" 
    width="250" height="400" alt="мольберт лира"></td>
 	</tr>
 	<tr>

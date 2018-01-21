@@ -2,7 +2,7 @@
 layout: post
 title: Приглашаем на мастер-класс в воскресенье в 14:00!
 ---
-<img src="/img/post/2017-02-02/2017-02-02-master-class.jpg " 
+<img src="{{ site.baseurl }}/img/post/2017-02-02/2017-02-02-master-class.jpg " 
   text-align="center" width="100%" height="40%" alt="Мастер-классы акварель, пастель, масло в изостудии Арт Портал Владимир">
   
   

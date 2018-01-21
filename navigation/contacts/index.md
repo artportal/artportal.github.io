@@ -17,7 +17,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 					<div class="contacts__value">
 						Владимир, ул. Студеная Гора, дом 36, 2 этаж каб. 127
 					</div>
-					
 				</div>
 				<div class="contacts__content-item">
 					<div class="contacts__name">
@@ -28,7 +27,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 						<a href="tel:+79209376092">8(920)937-60-92</a>, 
 						<a href="tel:+74922600181">600-181.</a>
 					</div>
-					
 				</div>
 				<div class="contacts__content-item">
 					<div class="contacts__name">
@@ -37,7 +35,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 					<div class="contacts__value">
 						 <a class="vk" href="https://vk.com/artstud33" target="_blank" rel="noreferrer noopener">vk</a>
 					</div>
-					
 				</div>
 			</div>
 			<div class="contacts__map">
@@ -55,7 +52,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 					<div class="contacts__value">
 						Владимир, ул. Нижняя Дуброва, дом 17а, кв 5.
 					</div>
-					
 				</div>
 				<div class="contacts__content-item">
 					<div class="contacts__name">
@@ -65,7 +61,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 						<a href="tel:+79209376092">8(920)937-60-92</a>, 
 						<a href="tel:+74922600181">600-181.</a>
 					</div>
-					
 				</div>
 			</div>
 			<div class="contacts__map">
@@ -83,7 +78,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 					<div class="contacts__value">
 						Владимир, ул. Егорова, дом 10а.
 					</div>
-					
 				</div>
 				<div class="contacts__content-item">
 					<div class="contacts__name">
@@ -93,7 +87,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 						<a href="tel:+79209376092">8(920)937-60-92</a>, 
 						<a href="tel:+74922600181">600-181.</a>
 					</div>
-					
 				</div>
 			</div>
 			<div class="contacts__map">
