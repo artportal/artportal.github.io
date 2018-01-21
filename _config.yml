@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/artportal.github.io" # the subpath of your site, e.g. /blog/
-url: "https://sokolovadasha.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://artportal.github.io" # the base hostname & protocol for your site
 # THEME_SETTINGS-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
