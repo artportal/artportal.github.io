@@ -32,9 +32,9 @@
 		</div>
 		<nav class="site-nav">
 			<ul>
-				{% assign pages = (site.pages | sort: 'order') %}
-				{% for page in pages %}
-					{% if page.title and page.hide != true %}
+				{% assign pages = (site.pages | sort: 'order') | compact %}
+				{% for page in pages | compact %}
+					{% if page.title and page.hide != true | compact %}
 					<li>
 						<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
 							{{ page.title }}

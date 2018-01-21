@@ -11,7 +11,7 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
-                    <img src="/img/teachers/avatar_1.jpg" alt="Преподаватели Арт Портал">
+                    <img src="{{ site.baseurl }}/img/teachers/avatar_1.jpg" alt="Преподаватели Арт Портал">
                 </div>
                 <div class="teachers__name">
                     <div class="teachers__name-wrap">
@@ -23,14 +23,14 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
                     Работала на кафедре дизайна и художественных дисциплин в АмГУ. Член союза художников России. Участник всероссийских  и международных выставок.
                 </div>
                 <div class="teachers__link">
-                    <a href="/teachers-gallery/#SurikovaNV" target="_blank">Ознакомиться с работами преподавателя</a>
+                    <a href="{{ site.baseurl }}/teachers-gallery/#SurikovaNV" target="_blank">Ознакомиться с работами преподавателя</a>
                 </div>
             </div>
         </div>
         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
-                    <img src="/img/teachers/avatar_2.jpg" alt="Преподаватели Арт Портал">
+                    <img src="{{ site.baseurl }}/img/teachers/avatar_2.jpg" alt="Преподаватели Арт Портал">
                 </div>
                 <div class="teachers__name">
                     <div class="teachers__name-wrap">
@@ -41,14 +41,14 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
                     Окончила худ.-граф. отеление Алексеевского педагогического коледжа в Белгородской обл., 10 лет работала в ДШИ г.Ясный. В 2005 г. окончила Воронежский экономико-правовой институт кафедра психологии. Практический психолог в сфере "Семейная психология" , психологическая коррекция на основе исскуства и творчества "Арт-терапия". 
                 </div>
                 <div class="teachers__link">
-                    <a href="/teachers-gallery/#ZhabskayaNN" target="_blank">Ознакомиться с работами преподавателя</a>
+                    <a href="{{ site.baseurl }}/teachers-gallery/#ZhabskayaNN" target="_blank">Ознакомиться с работами преподавателя</a>
                 </div>
             </div>
         </div>
         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
-                    <img src="/img/teachers/avatar_3.jpg" alt="Преподаватели Арт Портал">
+                    <img src="{{ site.baseurl }}/img/teachers/avatar_3.jpg" alt="Преподаватели Арт Портал">
                 </div>
                 <div class="teachers__name">
                     <div class="teachers__name-wrap">
@@ -59,14 +59,14 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
                     Окончила Владимирский государственный педагогический университет. Учитель ИЗО и черчения. Работала педагогом дополнительного образования в МБУ "Молодежный центр" и детском саду №70. 
                 </div>
                 <div class="teachers__link">
-                    <a href="/teachers-gallery/#KarpitskayaES" target="_blank">Ознакомиться с работами преподавателя</a>
+                    <a href="{{ site.baseurl }}/teachers-gallery/#KarpitskayaES" target="_blank">Ознакомиться с работами преподавателя</a>
                 </div>
             </div>
         </div>
         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
-                    <img src="/img/teachers/avatar_4.jpg" alt="Преподаватели Арт Портал">
+                    <img src="{{ site.baseurl }}/img/teachers/avatar_4.jpg" alt="Преподаватели Арт Портал">
                 </div>
                 <div class="teachers__name">
                     <div class="teachers__name-wrap">
@@ -77,14 +77,14 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
                     Окончила худграф ВГПУ. Художник иллюстратор, дизайнер. Работала на производстве детских развивающих игрушек. Долгое время сотрудничает с издательством "Дюна", где является автором иллюстраций множества учебников и методических пособий.
                 </div>
                 <div class="teachers__link">
-                    <a href="/teachers-gallery/#KnyazevaNV" target="_blank">Ознакомиться с работами преподавателя</a>
+                    <a href="{{ site.baseurl }}/teachers-gallery/#KnyazevaNV" target="_blank">Ознакомиться с работами преподавателя</a>
                 </div>
             </div>
         </div>
         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
-                    <img src="/img/teachers/avatar_5.jpg" alt="Преподаватели Арт Портал">
+                    <img src="{{ site.baseurl }}/img/teachers/avatar_5.jpg" alt="Преподаватели Арт Портал">
                 </div>
                 <div class="teachers__name">
                     <div class="teachers__name-wrap">
@@ -95,7 +95,7 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
                     МГПИ,(Московский педагогический институт). Художник лаковой миниатюры, мастер народных промыслов. Автор проекта "Этнокультурного комплекса" под Москвой. Участник международных конкурсов и выставок.
                 </div>
                 <div class="teachers__link">
-                    <a href="/teachers-gallery/#KrominVA" target="_blank">Ознакомиться с работами преподавателя</a>
+                    <a href="{{ site.baseurl }}/teachers-gallery/#KrominVA" target="_blank">Ознакомиться с работами преподавателя</a>
                 </div>
             </div>
         </div>

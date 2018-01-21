@@ -4,7 +4,7 @@ title: Запускаем новый проект "Школа дизайна"
 ---
 С 1 марта запускаем новый проект: "Школа ДИЗАЙНА".
 <p/>
-<img src="/img/post/2016-02-20/design.jpg" 
+<img src="{{ site.baseurl }}/img/post/2016-02-20/design.jpg" 
   align="left"  max-width="400px" width="40%" height="40%" alt="Арт Портал школа дизайна">
 <p/>
 <ul>Направления: 

@@ -15,18 +15,18 @@ title: Итоги конкурса "Рождественская сказка"
 <p>Забрать призы можно  наших филиалах, предварительно позвонив по телефону: 600-181 или 8 (920) 937-60-92.</p>
 <h3>Лучшие работы конкурса "Рождественская сказка"</h3>
 <div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/600" data-nav="thumbs" data-arrows="true">
-    <img src="/img/winter-competition-results/1.jpg"> 
- 	<img src="/img/winter-competition-results/2.jpg"> 
- 	<img src="/img/winter-competition-results/3.jpg"> 
- 	<img src="/img/winter-competition-results/4.jpg"> 
- 	<img src="/img/winter-competition-results/5.jpg"> 
- 	<img src="/img/winter-competition-results/6.jpg"> 
- 	<img src="/img/winter-competition-results/7.jpg"> 
- 	<img src="/img/winter-competition-results/8.jpg"> 
- 	<img src="/img/winter-competition-results/9.jpg"> 
- 	<img src="/img/winter-competition-results/10.jpg">
- 	<img src="/img/winter-competition-results/11.jpg">
- 	<img src="/img/winter-competition-results/12.jpg">   
+    <img src="{{ site.baseurl }}/img/winter-competition-results/1.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/2.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/3.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/4.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/5.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/6.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/7.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/8.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/9.jpg"> 
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/10.jpg">
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/11.jpg">
+ 	<img src="{{ site.baseurl }}/img/winter-competition-results/12.jpg">   
 </div>
 
 
