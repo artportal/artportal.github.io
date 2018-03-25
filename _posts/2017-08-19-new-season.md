@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Продолжаем набор на новый учебный год!
+image: "/img/post/2017-08-19/preview-image.jpg"
+annotation: Изостудия Арт Портал приглашает взрослых и детей на занятия и мастер классы
 ---
 <p style="font-weight: bold;">Изостудия Арт Портал приглашает взрослых и детей на занятия и мастер классы по направлениям:</p>
 <ul>
@@ -17,7 +19,7 @@ title: Продолжаем набор на новый учебный год!
 	<li>Все виды дизайна</li>
 </ul>
 <p><a href="{{ site.baseurl }}/schedule/">Расписание занятий на 2017-2018 учебный год.</a></p>
-<p style="text-align: center;"><img src="{{ site.baseurl }}/img/post/2016-07-15/new-season.jpg" alt="Арт Портал новый учебный год"></p>
+<p style="text-align: center;"><img src="{{ site.baseurl }}/img/post/2017-08-19/new-season.jpg" alt="Арт Портал новый учебный год"></p>
 <p style="font-weight: bold;">Занятия будут проходить в студиях:</p>
 <ul>
 	<li>Нижняя Дуброва, дом 17а, кв 5.</li>

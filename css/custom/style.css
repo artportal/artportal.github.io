@@ -19,12 +19,9 @@ html{
 
 /************************************header************************************************/
 .branding{
-
-display: block;
-
-margin-left: -20px;
-
-padding: 20px 0;
+	display: block;
+	margin-left: -20px;
+	padding: 20px 0;
 }
 
 .branding__item_wrap{
@@ -34,8 +31,7 @@ padding: 20px 0;
 }
 
 .header__title{
-	
-width: 58%;
+	width: 58%;
 }
 
 .header__phone .branding__item{
@@ -62,65 +58,6 @@ width: 58%;
 }
 
 
-.branding__item{
-
-}
-
-.logo__link{
-	
-}
-
-.site-header{
-	float: none;
-	display: block;
-	width: 100%;
-	padding: 0;
-}
-
-.site-header a{
-
-}
-
-
-.site-header .site-title{
-	float:none;
-	display: inline-block;
-}
-
-.site-header .logo{
-	
-float: none;
-	
-width: 130px;
-}
-
-
-
-.site-nav{
-	display: block;
-	width: 100%;
-	float: none;
-	margin: 10px 0 20px 0;
-}
-
-.site-header .site-nav ul{
-	float:none;
-	padding-top: 0;
-}
-
-.site-header .site-nav li{
-	float:none;
-}
-
-.site-header .site-nav li a{
-	float:none;
-	transition:all 0.3s;
-	color: #000;
-}
-.site-header .site-nav li a:hover{
-	opacity:0.8;
-	text-decoration:none;
-}
 
 .gray-table{
 	margin:20px 0;
@@ -183,7 +120,8 @@ width: 130px;
 }
 
 .teachers{
-	margin:40px 0;
+	margin-top:40px;
+	margin-bottom:40px;
 }
 
 .teachers-wrap{
@@ -192,11 +130,31 @@ width: 130px;
 	margin-left: -3%;
 }
 
+.teachers-wrap .owl-nav{
+    position: absolute;
+    z-index: 3;
+    width: 95px;
+    top: -67px;
+    right: 0;
+}
+
+.teachers-wrap .owl-dots{
+    display:none;
+}
+
+.teachers-wrap.owl-loaded{
+    margin-left:0;
+}
+
 .teachers__item-wrap{
 	width: 50%;
 	display: inline-block;
 	padding-left: 3%;
 	margin-bottom: 40px;
+}
+.owl-loaded .teachers__item-wrap{
+    width: 100%;
+    padding-left:0;
 }
 
 .teachers__item{

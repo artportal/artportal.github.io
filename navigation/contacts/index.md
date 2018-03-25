@@ -2,7 +2,7 @@
 layout: page
 title: Контакты
 permalink: /contacts/
-order: 6
+order: 7
 feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 ---
 <h2>Наши студии:</h2>

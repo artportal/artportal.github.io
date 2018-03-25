@@ -12,10 +12,16 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h2>Изостудия Арт Портал</h2>
-     <h3>Академическая школа живописи и рисунка</h3>
-     <h3>Дизайн и декоративное искусство</h3>
-     <p>г. Владимир</p> 
+    <div class="header-image__text cf">
+      <div class="header-image__text-wrap">
+        <div class="header-image__text-title">
+          Академическая школа живописи и рисунка
+        </div>
+        <div class="header-image__text-subtitle">
+          Дизайн и декоративное искусство
+        </div>
+      </div>
+    </div> 
 
   footer_text: >
      
@@ -60,7 +66,7 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Open+Sans:400&subset=cyrillic"
+  google_fonts: "Open+Sans:400,600,700&amp;subset=cyrillic"
 
   # Post navigation
   post_navigation: true

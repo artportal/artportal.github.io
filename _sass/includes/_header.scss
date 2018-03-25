@@ -2,9 +2,10 @@
   @extend %padding-small;
   background: $brand-color;
   border-bottom: 1px solid $border-color;
-  display: inline-block;
-  float: left;
   width: 100%;
+  float: none;
+  display: block;
+  padding: 0;
 
   a {
     color: $header-link-color;
@@ -20,37 +21,59 @@
   }
 
   .site-title {
-    float: left;
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;
+    float:none;
+    display: inline-block;
   }
 
   .site-nav {
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 10px 0 20px 0;
+
     ul {
+      display: table;
+      width:100%;
       margin: 0;
       padding: 0;
       list-style: none;
       line-height: 1.5;
-      float: right;
-      text-align: right;
+      padding-top: 0;
+      text-align:justify;
     }
     li {
-      display: inline;
-      float: left;
-      margin-right: 0.4em;
+      display: table-cell;
+      text-align:center;
     }
     a {
       text-decoration: underline;
+      float:none;
+      transition:all 0.3s;
+      color: #000;
+
+      &:hover{
+        @media (max-width: 850px) {
+          opacity:0.8;
+          text-decoration:none;
+        }
+      }
     }
     @media (max-width: 1100px) {
       ul {
-        display: inline-block;
-        float: left;
-        padding-top: $padding-small;
-        text-align: left;
-        width: 100%;
+        // display: inline-block;
+        // float: left;
+        // padding-top: $padding-small;
+        // text-align: left;
+        // width: 100%;
       }
     }
   }
 }
+
+.site-header .logo{
+  width: 130px;
+}
+

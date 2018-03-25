@@ -2,7 +2,7 @@
 layout: page
 title: Стоимость
 permalink: /cost/
-order: 7
+order: 6
 feature-img: "img/feature-img/martovskii_sneg_1979_90_103_2.jpg"
 ---
 <strong>Стоимость обучения</strong>:

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Итоги конкурса рисунков<br/> "Все любят панд"!
+image: "img/autumn-competition-results/saveleva.jpg"
+annotation: Поздравляем победителей конкурса рисуков в изостудии Арт Портал!
 ---
 <h3 align="center"><strong>Поздравляем победителей конкурса рисуков в изостудии Арт Портал!</strong></h3>
 <h3 align="center"><strong>Призовые работы конкурса:</strong></h3>

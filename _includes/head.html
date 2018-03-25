@@ -3,8 +3,7 @@
 	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<meta http-equiv="X-Frame-Options" content="sameorigin">
-<meta name="yandex-verification" content="d2a8a2cdc3e17a50" />
+	<meta name="yandex-verification" content="d2a8a2cdc3e17a50" />
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
@@ -35,20 +34,10 @@
 	
 	<link rel="stylesheet" href="{{ "/css/fotorama/fotorama.css" | prepend: site.baseurl }}">
 
-
+	<link rel="stylesheet" href="{{ "/css/owl.carousel.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="{{ "/css/custom/style.css?v=2" | prepend: site.baseurl }}">
 	<!-- <script src='/js/clndr/less.js'></script> -->
-
-    
 	
-	<script src='{{ site.baseurl }}/js/jquery.js'></script>
-	<script src='{{ site.baseurl }}/js/init.js'></script>
-	
-	<script src='{{ site.baseurl }}/js/fotorama/fotorama.js'></script>
-
-	
-	
-
 	<!-- Google Analytics -->
 	{% if site.theme_settings.google_analytics %}
 	<script>
