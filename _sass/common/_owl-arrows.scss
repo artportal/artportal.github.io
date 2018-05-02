@@ -1,0 +1,105 @@
+
+/******************************************owl-controls**********************************************/
+
+.owl-carousel{
+    display: block;
+}
+
+.owl-nav{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  bottom:0;
+}
+
+.owl-next,
+.owl-prev {
+  height: 38px;
+  width: 38px;
+  border-radius:$common-radius;
+  border:1px solid $color2;;
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  background-color: #fff;
+  display: block;
+  transition: border-color 0.3s;
+
+      &:after{
+        content: '';
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 8px;
+        height: 14px;
+        background-image: url(../img/custom/arrows.png);
+        background-position: 0 0;
+        transition: background-color 0.3s;
+      }
+  
+    @media all and (min-width:850px){
+        &:hover{
+            border-color:$color5;
+
+            &:after{
+                background-position: -8px 0;
+            }
+        }
+    }
+}
+
+.owl-prev.disabled,
+.owl-next.disabled {
+  opacity:0.8;
+}
+
+.owl-next {
+    right: 0;
+
+}
+
+.owl-prev {
+    transform: rotate(180deg);
+    left: 0;
+}
+
+.owl-dots{
+    text-align: center;
+}
+
+.owl-dots .owl-dot{
+    padding: 7px;
+    display: inline-block;
+
+    &.active{
+        padding: 4px;
+    }
+}
+
+
+.owl-dots .owl-dot span{
+    display: inline-block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: $color2;
+}
+
+
+.owl-dots .owl-dot.active span{
+    background: $color2;
+    width: 16px;
+    height: 16px;
+}
+
+
+@media all and (max-width:450px){
+    .owl-dots{
+        display:block !important;
+    }
+
+}
+

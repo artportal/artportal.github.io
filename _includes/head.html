@@ -4,13 +4,11 @@
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<meta name="yandex-verification" content="d2a8a2cdc3e17a50" />
-	<!-- CSS -->
+	
 	<link rel="stylesheet" href="{{ "/css/main.css?v=1" | prepend: site.baseurl }}">
 
-	<!--Favicon-->
 	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 
-	<!-- Canonical -->
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 	<!-- Font Awesome -->
@@ -21,19 +19,17 @@
 	<link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css">
 	{% endif %}
 
-	<!-- KaTeX -->
+	
 	{% if site.theme_settings.katex %}
+	<!-- KaTeX -->
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
 	{% endif %}
-
-	<!-- <link rel="stylesheet" href="{{ "/css/clndr/prism.css" | prepend: site.baseurl }}"> -->
 	
 	<link rel="stylesheet" href="{{ "/css/fotorama/fotorama.css" | prepend: site.baseurl }}">
 
 	<link rel="stylesheet" href="{{ "/css/owl.carousel.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="{{ "/css/custom/style.css?v=3" | prepend: site.baseurl }}">
-	<!-- <script src='/js/clndr/less.js'></script> -->
 	
 	<!-- Google Analytics -->
 	{% if site.theme_settings.google_analytics %}

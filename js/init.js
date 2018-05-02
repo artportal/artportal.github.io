@@ -14,9 +14,18 @@ $(document).ready(function() {
 /***************************************************************************/
 /********************       Window Resize       ****************************/
 /***************************************************************************/
-/* advantages mobile Carousel */
-// owlMobileNews = $('.news-wrap');
+
 $('.news-wrap.owl-carousel').owlCarousel({
+    loop: false,
+    items:3,
+    nav: true,
+    dot: false,
+    rewind: false,
+    margin : 20,
+    mouseDrag :false
+});
+
+$('.programs-wrap.owl-carousel').owlCarousel({
     loop: false,
     items:3,
     nav: true,

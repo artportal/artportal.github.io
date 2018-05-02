@@ -8,7 +8,13 @@
 @import 'base/variables';
 @import 'base/global';
 @import 'base/utility';
-@import 'base/menu';
+
+
+// Common
+@import 'common/menu';
+@import "common/owl-arrows";
+@import "common/news";
+@import "common/programs";
 
 // Posts
 @import 'layouts/posts';
