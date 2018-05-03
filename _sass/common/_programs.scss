@@ -32,14 +32,11 @@
 
     &__title {
         display:block;
+        margin-bottom: 20px;
         text-align:center;
-        font-size: 18px;
+        font-size: 21px;
         line-height: 24px;
         color: $color1;
-        font-weight: 700;
-        height:48px;
-        overflow: hidden;
-        margin-bottom: 3px;
         text-decoration: none;
         transition:0.3s all;
 
@@ -72,16 +69,22 @@
     }
 
     &__description{
-        position:absolute;
-        top:70%;
-        left:40%;
-        width:60%;
-        color: $color2;
-        font-size:14px;
-        line-height: 18px;
-        height: 36px;
+        position: absolute;
+        top: 61%;
+        left: 23%;
+        width: 77%;
+        max-height: 104px;
         overflow: hidden;
-        transition: .3s all;
+        
+
+        a{
+            background: rgba(0, 0, 0, 0.9);
+            color: #bdafaf;
+            background: #f5efef;
+            color: #000;
+            font-size: 18px;
+            line-height: 27px;
+        }
 
         p,ul,ol{
             margin: 0;

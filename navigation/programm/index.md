@@ -9,7 +9,7 @@ feature-img: "img/feature-img/amur_hmuritsia_1971_27_45_1.jpg"
 <h3 id = "lesson-for-adults">Занятия для взрослых:</h3>
  Мы предлагаем программы для взрослых, имеющих различный уровень подготовки. В том числе проводим обучение рисованию «с нуля». Обучение планируется в зависимости от задачи, которую Вы ставите перед собой.
 <h4>Примеры натюрмортов:</h4>
-<img src="{{ site.baseurl }}/img/nature-morte/nature-morte.jpg" 
+<img src="{{ site.baseurl }}/img/nature-morte/nature-morte.jpg"
   align="center" width="100%" height="100%" alt="Рисование для взрослых и детей изостудия Арт Портал Владимир" title="Натюрморт">
 <hr/>
 <h3 id = "lesson-for-children">Занятия для детей от трех лет:</h3>
