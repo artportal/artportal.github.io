@@ -1,27 +1,5 @@
-article,
-.comments {
-  @extend %padding-regular;
-  border-bottom: 1px solid $border-color;
-  float: left;
-  width: 100%;
-}
-article {
-  header {
-    margin-bottom: 6%;
-    text-align: center;
-  }
-  a:hover {
-    @extend %link-hover;
-  }
-  .footnotes {
-    font-size: 0.9em;
-  }
-}
-header {
-  h1 {
-    margin: 0;
-  }
-  .meta {
+.post{
+  &__meta {
     color: rgba($text-color, .5);
     font-size: 0.9em;
     letter-spacing: 0.1em;
@@ -29,24 +7,9 @@ header {
     text-transform: uppercase;
   }
 }
-.feature-image {
-  padding: 0%;
-  .post-link {
-    color: $feature-image-text-color;
-  }
-  header {
-    color: $feature-image-text-color;
-    background-size: $feature-image-size;
-    margin-bottom: 0;
-    padding: $padding-large/2.5 $padding-large;
-    .meta {
-      color: rgba($feature-image-text-color, .7);
-    }
-  }
-  .post-content {
-    @extend %padding-regular;
-  }
-}
+
+
+
 // Post navigation
 #post-nav {
   width:100%;
@@ -77,6 +40,35 @@ header {
   i {
     vertical-align: middle;
   }
+}
+
+// Post listing
+.posts {
+  .post-teaser {
+    @extend %padding-regular;
+    width: 100%;
+    margin-bottom: 0;
+    display: inline-block;
+    background-size: $feature-image-size;
+    border-bottom: 1px solid $border-color;
+    p a:hover {
+      @extend %link-hover;
+    }
+  }
+  .excerpt {
+    margin-top: 1em;
+  }
+}
+// Pagination
+.pagination .button {
+  margin: 0 1.5em;
+  i {
+    vertical-align: middle;
+  }
+}
+.pagination {
+  padding: $padding-small $padding-large 0 $padding-large;
+  text-align: center;
 }
 
 
