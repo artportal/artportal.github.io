@@ -1,8 +1,7 @@
 // Typography
 $font-family-main: 'Open Sans', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Open Sans', Helvetica, Arial, sans-serif;
-$font-size: 14px;
-$line-height: 20px;
+$font-size: 1.25em;
 
 // Padding
 $padding-large: 20%;
@@ -31,8 +30,7 @@ $header-desc-background-color: #F98752;
 $header-desc-text-color: #000080;
 
 
-
-$color1:$text-color;
+$color1:#000;
 $color2:#4a244e; //Violet light
 $color3: #fff; //text3
 $color3_1:#e5e7e9; //light grey
@@ -46,6 +44,18 @@ $color6: #787878; //dark grey
 $common-radius:5px;
 $table-radius:0;
 
-$icons:url('../images/icons.png');
+// %base-text {
+//     .inner-page &{
+//         line-height: 26px;
+//     }
 
+//     font-size: 16px;
+//     line-height: 22px;
+//     color: $color1;
+//     text-align: left;
 
+//     @media all and (max-width:850px){
+//         font-size: 14px;
+//         line-height: 20px;
+//     }
+// }

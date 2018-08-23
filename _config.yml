@@ -7,24 +7,48 @@ theme_settings:
   title: > 
       Изостудия Арт Портал
       г. Владимир
-  logo: logo-mini-invisible.png
+  avatar: logo-mini-invisible.png
   description: # used by search engines
 
   # Header and footer text
   header_text: >
-
+    <div class="header-image__text cf">
+      <div class="header-image__text-wrap">
+        <div class="header-image__text-title">
+          Академическая школа живописи и рисунка
+        </div>
+        <div class="header-image__text-subtitle">
+          Дизайн и декоративное искусство
+        </div>
+      </div>
+    </div> 
 
   footer_text: >
      
 
   header_text_feature_image: "img/feature-img/amur_hmuritsia_1971_27_45_3.jpg"
 
-  # data
-  address_main: "г. Владимир, ул. Студеная Гора, дом 36, 2 этаж каб. 127"
-  address_branch: "г. Владимир, ул. Сперанского 11"
+  # Icons
+  rss: false
   email_address: # Full email address, e.g. "sam@example.com"
-  ok: "artportal"
-  instagram: "artportal33"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github:
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter:
+  wordpress:
+  youtube:
   vk: "artstud33"
 
   # Scripts

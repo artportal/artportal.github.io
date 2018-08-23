@@ -1,109 +1,112 @@
-<header class="header container">
-	
-	{% if site.theme_settings.header_text %}
-    <div class="header__image">
-        <img src="{{ site.baseurl }}/img/feature-img/sea-background-blue.jpg" alt="Школа живописи и рисунка" title="Школа живописи и рисунка">      
-    </div>
-	<div class="top-header cf">
-		{% if site.theme_settings.logo %}
-		<a class="top-header__item -logo" href="{{ site.baseurl }}/">
-			<img src="{{ site.baseurl }}/img/{{ site.theme_settings.logo }}" alt=""/>
-		</a>
-		{% endif %}
-		<a class="top-header__item -title" href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
-		
-		<div class="top-header__item -phone">
-			<a href="tel:+79209376092">+7 (920) 937-60-92</a>
-			<a href="tel:+79308300181">600-181</a>
-		</div>
-		<div class="top-header__item">
-			{% include icons.html %}
-		</div>
-	</div>
-	<nav class="site-nav cf">
-		<ul>
-			{% assign pages = (site.pages | sort: 'order') | compact %}
-			{% for page in pages | compact %}
-				{% if page.title and page.hide != true | compact %}
-				<li>
-					<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-						{{ page.title }}
+<header class="site-header-container container">
+	<div class="site-header cf">
+		<div class="branding">
+			<div class="branding__item_wrap logo">
+				<div class="branding__item">
+					{% if site.theme_settings.gravatar %}
+					<a class="logo__link" href="{{ site.baseurl }}/">
+						<img class="logo" src="https://secure.gravatar.com/avatar/{{ site.theme_settings.gravatar }}?s=100" alt=""/>
 					</a>
-				</li>
-				{% endif %}
-			{% endfor %}				
-		</ul>
-	</nav>
-	 <!-- <nav class="menu-container container top-menu"> -->
-	    <!-- <div class="menu menu--withmobile">
-	        <div class="menu-wrap">
-	            <div class="menu-switch bt-switch"></div>
-	            <ul>
-	                <li class="current_ancestor first"><a href="">Главная</a>
-	                </li>
-	                <li><a href="about/">О нас</a>
-	                </li>
-	                <li class="parent">
-	                    <a href="">Программы</a>
-	                    <div class="submenu-switch bt-switch"></div>
-	                    <ul class="menu_level_1">
-	                        <li class="first"><a href="">Занятия для детей</a>
-	                        </li>
-	                        <li><a href="">Занятия для взрослых</a>
-	                        </li>
-	                        <li><a href="">Мастер-классы</a>
-	                        </li>
-	                        <li><a href="">Академическая программа</a>
-	                        </li>
-	                        <li><a href="">Подготовка в ВУЗ</a>
-	                        </li>
-	                        <li class="last"><a href="">Проект - Школа дизайна</a>
-	                        </li>
-	                    </ul>
-	                </li>
-	                <li><a href="">Преподаватели</a></li>
-	                <li><a href="">Расписание</a></li>
-	                <li><a href="">Новости</a></li>
-	                <li><a href="">Статьи</a></li>
-	                <li class="parent">
-	                    <a href="">Художественный салон</a>
-	                    <div class="submenu-switch bt-switch"></div>
-	                    <ul class="menu_level_1">
-	                        <li class="first">
-	                            <a href="">Товары для художников</a>
-	                            <ul class="menu_level_2">
-	                                <li class="first"><a href="">Мольберты</a>
-	                                </li>
-	                                <li class="last"><a href="">Планшеты</a>
-	                                </li>
-	                            </ul>
-	                        </li>
-	                        <li class="last"><a href="">Картины</a>
-	                        </li>
-	                    </ul>
-	                </li>
-	                <li><a href="">Галерея</a></li>
-	                <li><a href="">Стоимость</a></li>
-	                <li class="last"><a href="">Контакты</a></li>
-	            </ul>
-	            <div class="menu-helper">
-	                <div class="menu-hidden-switch bt-switch"></div>
-	                <nav class="menu-hidden">
-	                    <ul></ul>
-	                </nav>
-	            </div>
-	        </div>
-	    </div> -->
-	<!-- </nav> -->
-	<div class="header__text cf">
-      <div class="header__text-wrap">
-        <div class="header__text-title">
-          Академическая школа живописи и рисунка
-        </div>
-        <div class="header__text-subtitle">
-          Дизайн и декоративное искусство
-        </div>
-      </div>
-    </div> 
-    {% endif %}
+					{% elsif site.theme_settings.avatar %}
+					<a class="logo__link" href="{{ site.baseurl }}/">
+						<img class="logo" src="{{ site.baseurl }}/img/{{ site.theme_settings.avatar }}" alt=""/>
+					</a>
+				</div>
+			</div>
+			{% endif %}
+			<div class="branding__item_wrap header__title">
+				<div class="branding__item">
+					<h1 class="site-title">
+						<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
+					</h1>
+				</div>
+			</div>
+			<div class="branding__item_wrap header__phone">
+				<div class="branding__item mobile">
+					<a href="tel:+79209376092">8(920)937-60-92</a>
+				</div>
+				<div class="branding__item">
+					<a href="tel:+79308300181">600-181</a>
+				</div>
+			</div>
+		</div>
+		<nav class="site-nav">
+			<ul>
+				{% assign pages = (site.pages | sort: 'order') | compact %}
+				{% for page in pages | compact %}
+					{% if page.title and page.hide != true | compact %}
+					<li>
+						<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+							{{ page.title }}
+						</a>
+					</li>
+					{% endif %}
+				{% endfor %}
+				<!-- Social icons from Font Awesome, if enabled -->
+				{% include icons.html %}
+			</ul>
+
+		</nav>
+		 <!-- <nav class="menu-container container top-menu"> -->
+		    <!-- <div class="menu menu--withmobile">
+		        <div class="menu-wrap">
+		            <div class="menu-switch bt-switch"></div>
+		            <ul>
+		                <li class="current_ancestor first"><a href="">Главная</a>
+		                </li>
+		                <li><a href="about/">О нас</a>
+		                </li>
+		                <li class="parent">
+		                    <a href="">Программы</a>
+		                    <div class="submenu-switch bt-switch"></div>
+		                    <ul class="menu_level_1">
+		                        <li class="first"><a href="">Занятия для детей</a>
+		                        </li>
+		                        <li><a href="">Занятия для взрослых</a>
+		                        </li>
+		                        <li><a href="">Мастер-классы</a>
+		                        </li>
+		                        <li><a href="">Академическая программа</a>
+		                        </li>
+		                        <li><a href="">Подготовка в ВУЗ</a>
+		                        </li>
+		                        <li class="last"><a href="">Проект - Школа дизайна</a>
+		                        </li>
+		                    </ul>
+		                </li>
+		                <li><a href="">Преподаватели</a></li>
+		                <li><a href="">Расписание</a></li>
+		                <li><a href="">Новости</a></li>
+		                <li><a href="">Статьи</a></li>
+		                <li class="parent">
+		                    <a href="">Художественный салон</a>
+		                    <div class="submenu-switch bt-switch"></div>
+		                    <ul class="menu_level_1">
+		                        <li class="first">
+		                            <a href="">Товары для художников</a>
+		                            <ul class="menu_level_2">
+		                                <li class="first"><a href="">Мольберты</a>
+		                                </li>
+		                                <li class="last"><a href="">Планшеты</a>
+		                                </li>
+		                            </ul>
+		                        </li>
+		                        <li class="last"><a href="">Картины</a>
+		                        </li>
+		                    </ul>
+		                </li>
+		                <li><a href="">Галерея</a></li>
+		                <li><a href="">Стоимость</a></li>
+		                <li class="last"><a href="">Контакты</a></li>
+		            </ul>
+		            <div class="menu-helper">
+		                <div class="menu-hidden-switch bt-switch"></div>
+		                <nav class="menu-hidden">
+		                    <ul></ul>
+		                </nav>
+		            </div>
+		        </div>
+		    </div> -->
+		<!-- </nav> -->
+	</div>
 </header>
