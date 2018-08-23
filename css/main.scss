@@ -4,10 +4,16 @@
 @import 'external/reset';
 @import 'external/syntax';
 
+
 // Base
+@import 'base/_mixins/_grid-mixins';
 @import 'base/variables';
 @import 'base/global';
+@import 'base/base';
 @import 'base/utility';
+
+// Blocks
+@import 'blocks/shedule';
 
 
 // Common
@@ -15,10 +21,13 @@
 @import "common/owl-arrows";
 @import "common/news";
 @import "common/programs";
+@import "common/social";
+
 
 // Posts
 @import 'layouts/posts';
 @import 'layouts/index';
+
 
 // Partials
 @import 'includes/header';

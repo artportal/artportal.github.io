@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
   {% include head.html %}
-  <body>
+  <body class="{{ page.body-class }}">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (d, w, c) {
@@ -37,9 +37,9 @@
 
     {% include header.html %}
 
-    <div class="content">
+    <main>
       {{ content }}
-    </div>
+    </main>
 
     {% include footer.html %}
 
@@ -56,3 +56,4 @@
     <script src='{{ site.baseurl }}/js/init.js?v=1'></script>
   </body>
 </html>
+
