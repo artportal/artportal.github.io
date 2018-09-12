@@ -14,11 +14,11 @@ feature-img: "img/feature-img/tishina.akademichka_1984_100_53_2.jpg"
   <li><a href="{{ site.baseurl }}/programm/index.html#master-class">Мастер-классы;</a></li>
   <li><a href="{{ site.baseurl }}/art-therapy/">Арт-терапия;</a></li>
   <li><a href="{{ site.baseurl }}/programm/index.html#preparation-for-exams">Подготовка к поступлению в ВУЗ;</a></li>
-  <li><a href="{{ site.baseurl }}/programm/index.html#academic-program">Академическая программа;</a></li>
+<!--   <li><a href="{{ site.baseurl }}/programm/index.html#academic-program">Академическая программа;</a></li> -->
   <li><a href="{{ site.baseurl }}/programm/index.html#school-of-design">Проект "Школа дизайна".</a></li>
 </ol>
 <h2 style="font-weight: bold;">Руководитель студии:</h2>
-Педагог высшей категории, дизайнер, член союза художников России.
+Сурикова Наталья Викторовна. Педагог высшей категории, дизайнер, член союза художников России.
 <h2 style="font-weight: bold;">Преподаватели студии:</h2>
 <div class="teachers">
     <div class="teachers-wrap">
@@ -77,7 +77,7 @@ feature-img: "img/feature-img/tishina.akademichka_1984_100_53_2.jpg"
                 </div>
             </div>
         </div>
-        <div class="teachers__item-wrap">
+<!--         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
                     <img src="{{ site.baseurl }}/img/teachers/avatar_4.jpg" alt="Преподаватели Арт Портал">
@@ -94,7 +94,7 @@ feature-img: "img/feature-img/tishina.akademichka_1984_100_53_2.jpg"
                     <a href="{{ site.baseurl }}/teachers-gallery/#KnyazevaNV" target="_blank">Ознакомиться с работами преподавателя</a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">

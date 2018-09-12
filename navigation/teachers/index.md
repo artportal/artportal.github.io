@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Наши преподаватели
+title: Преподаватели
 permalink: /teachers/
 order: 4
-hide: true
 feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
 ---
 <div class="teachers">
@@ -63,7 +62,7 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
                 </div>
             </div>
         </div>
-        <div class="teachers__item-wrap">
+        <!-- <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
                     <img src="{{ site.baseurl }}/img/teachers/avatar_4.jpg" alt="Преподаватели Арт Портал">
@@ -80,7 +79,7 @@ feature-img: "img/feature-img/zeyskaya_ges_1.jpg"
                     <a href="{{ site.baseurl }}/teachers-gallery/#KnyazevaNV" target="_blank">Ознакомиться с работами преподавателя</a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="teachers__item-wrap">
             <div class="teachers__item">
                 <div class="teachers__images">
