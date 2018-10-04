@@ -4,12 +4,17 @@
 
 $('.news-wrap.owl-carousel').owlCarousel({
     loop: false,
-    items:4,
+    items:3,
     nav: true,
     dot: false,
     rewind: false,
     margin : 30,
-    mouseDrag :false
+    mouseDrag :false,
+    responsive : {
+      1200:{
+        items:4
+      }
+    }
 });
 
 $('.programs-wrap.owl-carousel').owlCarousel({
