@@ -6,6 +6,17 @@ body-class: main-page
     <h1>Изостудия Арт Портал</h1>
     <p><strong>Изостудия Арт Портал </strong> - это рисование для детей и взрослых. Студия открыта для всех, кто хочет научиться рисовать. Мы не проводим испытательных экзаменов и собеседований, главное от Вас – желание учиться. Возраст не имеет значения, научим всех. Набор в изостудию осуществляется в течении всего учебного года.</p>
 </div>
+<h2 class="cf"><a href="{{ site.baseurl }}/gallery/">Фотогалерея</a></h2>
+<div class="gallery js-photoswipe-gallery -main">
+    {% assign gallery = site.data.main-gallery.galereya-na-glavnoy %}
+        {% for image in gallery.images %}
+            <div class="gallery__item">
+                <a href="{{ site.baseurl }}/img/gallery/{{gallery.name}}/{{image.name}}">
+                    <img src="{{ site.baseurl }}/img/gallery/{{gallery.name}}/{{image.name}}" alt="">
+                </a>
+            </div>
+        {% endfor %}
+</div>
 <div class="news cf">
     <h2>Новости студии</h2>
     <div class="news-wrap owl-carousel">
@@ -100,100 +111,33 @@ body-class: main-page
 
     </div>
 </div> -->
-<div class="teachers teachers--main cf">
+<div class="teachers -main cf">
     <h2>Преподаватели студии</h2>
-    <div class="teachers-wrap">
-        <div class="teachers__item-wrap">
-            <div class="teachers__item">
-                <div class="teachers__images">
-                    <img src="{{ site.baseurl }}/img/teachers/avatar_1.jpg" alt="Преподаватели Арт Портал">
-                </div>
-                <div class="teachers__name">
-                    <div class="teachers__name-wrap">
-                        Сурикова Наталья Викторовна
+    <div class="teachers-wrap">   
+        
+        {% assign teachers = site.data.teachers  %}        
+        {% for teacher_hash in teachers %}            
+            {% assign teacher = teacher_hash[1] %}
+            {% if teacher.hide != true %}
+                <div class="teachers__item">
+                    <div class="teachers__images">
+                        <img src="{{ site.baseurl }}/img/teachers/{{teacher.avatar}}" alt="{{teacher.name}}" title="{{teacher.name}}">
                     </div>
-                </div>
-                <div class="teachers__text">
-                    Окончила худграф педагогического училища г.Благовещенска и Амурский государственный университет по специальности дизайн.
-                    Работала на кафедре дизайна и художественных дисциплин в АмГУ. Член союза художников России. Участник всероссийских  и международных выставок.
-                </div>
-                <div class="teachers__link">
-                    <a href="{{ site.baseurl }}/teachers-gallery/#SurikovaNV" target="_blank">Ознакомиться с работами преподавателя</a>
-                </div>
-            </div>
-        </div>
-        <div class="teachers__item-wrap">
-            <div class="teachers__item">
-                <div class="teachers__images">
-                    <img src="{{ site.baseurl }}/img/teachers/avatar_2.jpg" alt="Преподаватели Арт Портал">
-                </div>
-                <div class="teachers__name">
-                    <div class="teachers__name-wrap">
-                        Жабская Наталья Николаевна
+                    <div class="teachers__content">
+                        <div class="teachers__name">
+                            {{teacher.name}}
+                        </div>
+                        <div class="teachers__text">
+                            {{teacher.text}}
+                        </div>
+                        <div class="teachers__link">
+                            <a href="{{ site.baseurl }}/teachers-gallery/{{teacher.link}}" target="_blank">Ознакомиться с работами преподавателя</a>
+                        </div>
                     </div>
+                    
                 </div>
-                <div class="teachers__text">
-                    Окончила худ.-граф. отеление Алексеевского педагогического коледжа в Белгородской обл., 10 лет работала в ДШИ г.Ясный. В 2005 г. окончила Воронежский экономико-правовой институт кафедра психологии. Практический психолог в сфере "Семейная психология" , психологическая коррекция на основе исскуства и творчества "Арт-терапия". 
-                </div>
-                <div class="teachers__link">
-                    <a href="{{ site.baseurl }}/teachers-gallery/#ZhabskayaNN" target="_blank">Ознакомиться с работами преподавателя</a>
-                </div>
-            </div>
-        </div>
-        <div class="teachers__item-wrap">
-            <div class="teachers__item">
-                <div class="teachers__images">
-                    <img src="{{ site.baseurl }}/img/teachers/avatar_3.jpg" alt="Преподаватели Арт Портал">
-                </div>
-                <div class="teachers__name">
-                    <div class="teachers__name-wrap">
-                        Карпицкая Екатерина Сергеевна
-                    </div>
-                </div>
-                <div class="teachers__text">
-                    Окончила Владимирский государственный педагогический университет. Учитель ИЗО и черчения. Работала педагогом дополнительного образования в МБУ "Молодежный центр" и детском саду №70. 
-                </div>
-                <div class="teachers__link">
-                    <a href="{{ site.baseurl }}/teachers-gallery/#KarpitskayaES" target="_blank">Ознакомиться с работами преподавателя</a>
-                </div>
-            </div>
-        </div>
-<!--         <div class="teachers__item-wrap">
-            <div class="teachers__item">
-                <div class="teachers__images">
-                    <img src="{{ site.baseurl }}/img/teachers/avatar_4.jpg" alt="Преподаватели Арт Портал">
-                </div>
-                <div class="teachers__name">
-                    <div class="teachers__name-wrap">
-                        Князева Наталья Викторовна
-                    </div>
-                </div>
-                <div class="teachers__text">
-                    Окончила худграф ВГПУ. Художник иллюстратор, дизайнер. Работала на производстве детских развивающих игрушек. Долгое время сотрудничает с издательством "Дюна", где является автором иллюстраций множества учебников и методических пособий.
-                </div>
-                <div class="teachers__link">
-                    <a href="{{ site.baseurl }}/teachers-gallery/#KnyazevaNV" target="_blank">Ознакомиться с работами преподавателя</a>
-                </div>
-            </div>
-        </div> -->
-        <div class="teachers__item-wrap">
-            <div class="teachers__item">
-                <div class="teachers__images">
-                    <img src="{{ site.baseurl }}/img/teachers/avatar_5.jpg" alt="Преподаватели Арт Портал">
-                </div>
-                <div class="teachers__name">
-                    <div class="teachers__name-wrap">
-                        Кромин Виктор Александрович
-                    </div>
-                </div>
-                <div class="teachers__text">
-                    МГПИ,(Московский педагогический институт). Художник лаковой миниатюры, мастер народных промыслов. Автор проекта "Этнокультурного комплекса" под Москвой. Участник международных конкурсов и выставок.
-                </div>
-                <div class="teachers__link">
-                    <a href="{{ site.baseurl }}/teachers-gallery/#KrominVA" target="_blank">Ознакомиться с работами преподавателя</a>
-                </div>
-            </div>
-        </div>
+            {% endif %}
+        {% endfor %}
     </div>
 </div>
 

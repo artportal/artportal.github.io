@@ -23,7 +23,7 @@
     }
 
     &__item{
-        width: 33.33%;
+        width: 25%;
         display: inline-block;
         padding-left:20px;
         margin-bottom:20px;
@@ -82,12 +82,12 @@
         }
     }
 
-    &__title {
+    &__title{
         font-size: 18px;
         line-height: 24px;
         color: $color1;
         font-weight: 700;
-        height:48px;
+        height:49px;
         overflow: hidden;
         margin-bottom: 3px;
         text-decoration: none;
@@ -97,7 +97,6 @@
             font-size: inherit;
             line-height: inherit;
             color: inherit;
-            text-decoration:none;
             transition: 0.3s all;
             vertical-align: bottom;
 
@@ -113,13 +112,13 @@
     }
 
     &__date{
+        position: absolute;
+        width: 100%;
+        bottom: 17px;
+        right: 15px;
         color: #403939;
         font-size: 12px;
         line-height: 16px;
-        position: absolute;
-        bottom: 17px;
-        right: 15px;
-        width: 100%;
         text-align: right;
     }
 
@@ -163,12 +162,6 @@
             border-color: transparent transparent transparent $color5;
             margin-right: 8px;
             transition: .3s all;
-        }
-    }
-
-    &__item-wrap:hover &__title{
-        @media all and (min-width:850px){
-            text-decoration:underline;
         }
     }
 

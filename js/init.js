@@ -1,27 +1,14 @@
 /***************************************************************************/
-/*******      Images to backgound       ********/
-/***************************************************************************/
-$(document).ready(function() {
-	if($('.teachers').length > 0){
-	 $('.teachers__images').each(function(){
-	  $(this).css('background-image', 'url(' + $(this).find('img').attr('src') + ')' );
-	  $(this).find('img').css('opacity', '0' );
-	 });
-	};
-
-});
-
-/***************************************************************************/
 /********************       Window Resize       ****************************/
 /***************************************************************************/
 
 $('.news-wrap.owl-carousel').owlCarousel({
     loop: false,
-    items:3,
+    items:4,
     nav: true,
     dot: false,
     rewind: false,
-    margin : 20,
+    margin : 30,
     mouseDrag :false
 });
 
@@ -128,6 +115,9 @@ function owlCarouselResize(element, options, currResolution, prevResolution, swi
 
     }
   }
+
+// Обёртка над фотосвайпом
+photoswipeWrapper.init('.js-photoswipe-gallery', 'a:not(.no-photoswipe)');
 
 
 

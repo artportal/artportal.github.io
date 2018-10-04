@@ -1,0 +1,20 @@
+title: Фотогалерея
+name: galereya-na-glavnoy
+images:
+  - description: 
+    name: galereya-na-glavnoy-1.jpg
+
+  - description:
+    name: galereya-na-glavnoy-2.jpg
+
+  - description:
+    name: galereya-na-glavnoy-3.jpg
+
+  - description:
+    name: galereya-na-glavnoy-4.jpg
+
+  - description:
+    name: galereya-na-glavnoy-5.jpg
+
+  - description:
+    name: galereya-na-glavnoy-6.jpg
