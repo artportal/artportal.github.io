@@ -1,31 +1,21 @@
 <div class="social">
 
-
-	{% if site.theme_settings.email_address %}
-	<li>
-		<a href="mailto:{{ site.theme_settings.email_address }}" title="{{ site.theme_settings.str_email }}">
-			<i class="fa fa-fw fa-envelope"></i>
-		</a>
-	</li>
-	{% endif %}
-
-<!-- 	{% if site.theme_settings.instagram %}
-		<a class="social__item -instagram" href="https://www.instagram.com/{{ site.theme_settings.instagram }}" target="_blank" rel="noreferrer noopener nofollow">
-			<i class="fab fa-instagram"></i>
-		</a>
-	{% endif %}
-
-	{% if site.theme_settings.ok %}
-		<a class="social__item -ok" href="https://ok.ru/{{ site.theme_settings.ok }}" target="_blank" rel="noreferrer noopener nofollow">
-			<i class="fab fa-odnoklassniki"></i>
-		</a>
-	{% endif %}	 -->
-
 	{% if site.theme_settings.vk %}
-		<!-- <a class="social__item -vk" href="https://vk.com/{{ site.theme_settings.vk }}" target="_blank" rel="noreferrer noopener nofollow">
-			<i class="fab fa-vk"></i>
- -->		</a>
-		<i class="fa fa-vk"></i>
+		<a class="social__item -vk" href="{{ site.theme_settings.vk }}" target="_blank" rel="noreferrer noopener nofollow">
+			vk
+ 		</a>
+	{% endif %}	
+
+	{% if site.theme_settings.instagram %}
+		<a class="social__item -instagram" href="{{ site.theme_settings.instagram }}" target="_blank" rel="noreferrer noopener nofollow">
+			vk
+ 		</a>
+	{% endif %}	
+
+	{% if site.theme_settings.odnoklassniki %}
+		<a class="social__item -odnoklassniki" href="{{ site.theme_settings.odnoklassniki }}" target="_blank" rel="noreferrer noopener nofollow">
+			vk
+ 		</a>
 	{% endif %}	
 
 </div>

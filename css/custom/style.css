@@ -57,20 +57,17 @@
 	line-height: 0;
 	width: 28px;
 	height: 28px;
-	background: url('../../img/custom/soc_icon.png') no-repeat;
+	background: url('../../img/custom/social-icon.png') no-repeat;
 	background-position: 0 0;
 	transition: opacity 0.2s;
+	border-bottom:none;
 	margin-top: -3px;
 }
 /***************************post*************************/
 
 .posts .post-teaser{
-
-display: block;
-
-max-width: 960px;
-
-margin: 28px auto;
-
-padding: 0;
+	display: block;
+	max-width: 960px;
+	margin: 28px auto;
+	padding: 0;
 }

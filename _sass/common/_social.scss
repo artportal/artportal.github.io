@@ -1,123 +1,89 @@
 /*************************************social****************************************/
 .social {
-    font-size:20px;
-    line-height:20px;
-    // display: flex;
-    // flex-wrap: wrap;
-    // width:234px;
-    // font-size: 0;
-    // line-height: 0;
-    // text-align: right;
-    // margin-left: -15px;
-    // margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-left: -15px;
 
-    // @media (max-width:650px){
-    //     margin-left: -4px;
-    //     margin-right: -4px;
-    // }
+    &__item {
+        width: 28px;
+        height: 28px;
+        font-size: 0;
+        line-height: 0;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        border-bottom: 0;
+        background-image: url('../../img/custom/soc_icon.png');
+        background-position: 0 0;
+        transition:0.0s all; 
+
+        @media all and (min-width:851px){
+            &:hover {
+                
+            }
+        }
+
+        &.-vkontakte{
+            background-position: 0 0;
+
+            @media all and (min-width:851px){
+                &:hover {
+                    
+                }
+            }
+        }
+
+        &.-fb{
+            background-position: -41px 0;
+
+            @media all and (min-width:851px){
+                &:hover {
+                }
+            }
+        }
 
 
-    // &__item {
-    //     display: inline-block;
-    //     width: 48px;
-    //     height: 48px;
-    //     border-radius: 50%;
-    //     border: 1px solid rgba(255,255,255,0.4);
-    //     margin-left: 15px;
-    //     margin-right: 15px;
-    //     margin-bottom: 20px;
-    //     background-image: url('../images/social-icons.png');
-    //     background-position: 0 0;
-    //     background-origin: border-box;
-    //     transition:0.0s all; 
+        &.-twitter{
+            background-position: -82px 0;
 
-    //     @media all and (min-width:851px){
-    //         &:hover {
-    //             border-color: rgba(255, 255, 255,1);
-    //             box-shadow: 0px 0px 10px 0px rgba(11, 226, 229, 0.4);
-    //         }
-    //     }
+            @media all and (min-width:851px){
+                &:hover {
+                 
+                }
+            }
+        }
 
-    //     @media (max-width:650px){
-    //         width: 40px;
-    //         height: 40px;
-    //         margin-left: 4px;
-    //         margin-right: 4px;
-    //     }
+        &.-gplus{
+            background-position: -123px -49px;
+            @media all and (min-width:851px){
+                &:hover {
 
-    //     &.-odnoklassniki{
-    //         background-position: 0 0;
-    //         @media all and (min-width:851px){
-    //             &:hover {
-    //                 background-position: 0 -98px;
-    //             }
-    //         }
+                }
+            }
 
-    //         @media (max-width:650px){
-    //             background-position: -4px -4px;;
-    //         }
-    //     }
+        }
 
-    //     &.-fb{
-    //         background-position: -49px 0;
-    //         @media all and (min-width:851px){
-    //             &:hover {
-    //                 background-position: -49px -98px;
-    //             }
-    //         }
-    //         @media (max-width:650px){
-    //             background-position: -53px -4px;;
-    //         }
-    //     }
+        &.-instagram{
+            background-position: -164px 0;
 
-    //     &.-instagram{
-    //         background-position: -98px 0;
-    //         @media all and (min-width:851px){
-    //             &:hover {
-    //                 background-position: -98px -98px;
-    //             }
-    //         }
-    //         @media (max-width:650px){
-    //             background-position: -102px -4px;;
-    //         }
-    //     }
+            @media all and (min-width:851px){
+                &:hover {
+                    
+                }
+            }
+        }
 
-    //     &.-twitter{
-    //         background-position: 0 -49px;
-    //         @media all and (min-width:851px){
-    //             &:hover {
-    //              background-position: 0 -147px; 
-    //          }
-    //      }
-    //      @media (max-width:650px){
-    //         background-position: -4px -4px;;
-    //     }
-    // }
 
-    // &.-gplus{
-    //     background-position: -49px -49px;
-    //     @media all and (min-width:851px){
-    //         &:hover {
-    //             background-position: -49px -147px;
-    //         }
-    //     }
-    //     @media (max-width:650px){
-    //         background-position: -53px -4px;;
-    //     }
 
-    // }
+        &.-odnoklassniki{
+            background-position: -205px 0;
 
-    // &.-vkontakte{
-    //     background-position: -98px -49px;
-    //     @media all and (min-width:851px){
-    //         &:hover {
-    //             background-position: -98px -147px;
-    //         }
-    //     }
-    //     @media (max-width:650px){
-    //         background-position: -102px -4px;;
-    //     }
-    // }
-// }
+            @media all and (min-width:851px){
+                &:hover {
+                    
+                }
+            }
+        }
+    }
 
 }
