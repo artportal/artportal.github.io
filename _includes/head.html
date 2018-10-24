@@ -11,25 +11,10 @@
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-	<!-- Font Awesome -->
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-
-	<!-- <link href="//use.fontawesome.com/releases/v5.2.0/css/all.css" > -->
-
-
 
 	<!-- Google Fonts -->
 	{% if site.theme_settings.google_fonts %}
 	<link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css">
-
-
-	{% endif %}
-
-	
-	{% if site.theme_settings.katex %}
-	<!-- KaTeX -->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
 	{% endif %}
 	
 	<link rel="stylesheet" href="{{ "/css/fotorama/fotorama.css" | prepend: site.baseurl }}">

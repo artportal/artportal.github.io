@@ -1,0 +1,54 @@
+- name: Мольберт «Хлопушка» большой
+  image: molbert-hlopushka-bolshaya.jpg
+  text: Производство&#58; Россия.<br/> Материал&#58; береза.
+  price: 1900 руб.
+
+- name: Мольберт «Хлопушка» малый
+  image: molbert-hlopushka-malaya.jpg
+  text: Производство&#58; Россия.<br/> Материал&#58; береза.
+  price: 1900 руб.
+  hide: true
+
+- name: Мольберт «Лира» напольный
+  image: lira-napolnaya.jpg
+  text: Производство&#58; Россия.<br/> Материал&#58; береза.
+  price: 1600 руб.
+
+- name: Мольберт «Лира» настольный
+  image: lira-nastolnaya.jpg
+  text: Производство&#58; Россия.<br/> Материал&#58; береза.
+  price: 1600 руб.
+  hide: true
+
+- name: Краска масляная 120 мл.
+  image: kraska-maslyanaya-120.jpg
+  text: Цвет&#58; белый (цинковая и титановая).
+  price: 300 руб.
+
+- name: Краска масляная 46 мл.
+  image: kraska-maslyanaya-46.jpg
+  text: Цвет&#58; в ассортименте.
+  price: от 80 до 200 руб.
+
+- name: Кисти художественные
+  image: kisti.jpg
+  text: В ассортименте.
+  price: от 10 руб.
+
+- name: Пастель (30 цветов).
+  image: pastel.jpg
+  text: В наличии наборы от 10 до 60 цветов.
+  price: 450 руб.
+
+- name: Холст грунтованный.
+  image: holst.jpg
+  text: Материал&#58; лен. <br/> Размер&#58; от 30х40.
+  price: от 200 руб.
+
+- name: Планшеты.
+  image: plansheti.jpg
+  text: Материал&#58; дерево. <br/> Размер&#58; от 30х40.
+  price: от 250 руб.
+
+
+

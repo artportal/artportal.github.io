@@ -1,41 +1,30 @@
 ---
 layout: page
-title: Товары и услуги
+title: Товары для художников
 permalink: /services/
 order: 5
 feature-img: "img/feature-img/zeyskaya_ges.jpg"
 ---
-<h3>Услуги в нашей изостудии:</h3>
-<ul>
-  <li><a href="{{ site.baseurl }}/art-therapy/">Организация сеансов арт-терапии;</a></li>
-  <li>Все виды дизайна;</li>
-  <li>Выполнение художественных работ на заказ;</li>
-</ul>
+<p>Для Вашего удобства в студии можно приобрести маетриалы для занятий.</p>
+<div class="catalog">
+{% for item in site.data.catalog.catalog %}
+	{% if item.hide != true %}
+  	<div class="catalog__item">
+  		<img class="catalog__image" src="{{ site.baseurl }}/img/catalog/{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
+  		<div class="catalog__content">
+	  		<div class="catalog__name">
+	  			{{ item.name }}
+	  		</div>
+	  		<div class="catalog__text">
+	  			{{ item.text }}
+	  		</div>
+	  		<div class="catalog__price">
+	  			Цена: {{ item.price }}
+	  		</div>
+	  	</div>									
+  	</div>
+  	{% endif %}
+{% endfor %}
+</div>
 
-<h3>Товары для художников:</h3>
-<ul>
-	<li><strong>Рамки со стеклом</strong></li>
-	<li><strong>Мольберты:</strong></li>
-<table class="noborder" >
-	<tr>
-		<td><img src="{{ site.baseurl }}/img/easel/bigslapstick.jpg" 
-   width="250" height="400" alt="мольберт хлопушка"></td>
-  	<td><img src="{{ site.baseurl }}/img/easel/hlop.jpg" 
-   width="250" height="400" alt="мольберт хлопушка"></td>
-	</tr>
-	<tr>
-		<td>Большая хлопушка</td>
-		<td>Малая хлопушка</td>
-	</tr>
-	<tr>
-		<td><img src="{{ site.baseurl }}/img/easel/lira.jpg" 
-  width="250" height="400" alt="мольберт лира"></td>
-  		<td><img src="{{ site.baseurl }}/img/easel/tablelira.jpg" 
-   width="250" height="400" alt="мольберт лира"></td>
-	</tr>
-	<tr>
-		<td>Лира напольная</td>
-		<td>Лира настольная</td>
-	</tr>
-</table>
-</ul>
+
