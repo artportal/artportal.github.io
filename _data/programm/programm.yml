@@ -1,0 +1,33 @@
+- name: Занятия для взрослых
+  image: zanyatiya-dlya-vzroslykh-1.jpg
+  description: Мы предлагаем программы для взрослых, имеющих различный уровень подготовки. В том числе проводим обучение рисованию «с нуля». Обучение планируется в зависимости от задачи, которую Вы ставите перед собой.
+  text: Мы предлагаем программы для взрослых, имеющих различный уровень подготовки. В том числе проводим обучение рисованию «с нуля». Обучение планируется в зависимости от задачи, которую Вы ставите перед собой.
+  price: 1900 руб.
+  order: 1
+
+- name: Занятия для детей от трех лет
+  image: molbert-hlopushka-malaya.jpg
+  description: 
+  text: 
+  order: 1
+
+- name: Мастер-классы
+  image: molbert-hlopushka-malaya.jpg
+  description: 
+  text: 
+  order: 1
+
+- name: Подготовка к вступительным испытаниям в ВУЗ
+  image: molbert-hlopushka-malaya.jpg
+  description: 
+  text: 
+  order: 1
+
+- name: Проект "Школа дизайна"
+  image: molbert-hlopushka-malaya.jpg
+  description: 
+  text: 
+  order: 1
+
+
+
