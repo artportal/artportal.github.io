@@ -11,20 +11,31 @@ $('.news-wrap.owl-carousel').owlCarousel({
     margin : 30,
     mouseDrag :false,
     responsive : {
+
       1200:{
         items:4
       }
     }
 });
 
-$('.programs-wrap.owl-carousel').owlCarousel({
+$('.program-wrap.owl-carousel').owlCarousel({
     loop: false,
-    items:3,
+    items:4,
     nav: true,
     dot: false,
     rewind: false,
     margin : 20,
-    mouseDrag :false
+    mouseDrag :false,
+    responsive : {
+
+      1000:{
+        items:4
+      },
+
+      900:{
+        items:3
+      }
+    }
 });
 
 $('.teachers--main .owl-carousel').owlCarousel({

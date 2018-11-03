@@ -50,62 +50,83 @@ body-class: main-page
         {% endfor %}
     </div>
 </div>
-<!-- <div class="programs cf">
+<!-- <div class="program cf">
+
     <h2>Направления занятий</h2>
-    <div class="programs-wrap owl-carousel">
-        <div class="programs__item">
-            <a class="programs__title" href="/programm/zanyatiya-dlya-vzroslykh/">Занятия для взрослых</a>
-            <a class="programs__image" href="/programm/zanyatiya-dlya-vzroslykh/">
+    <div class="program-wrap owl-carousel">
+    {% assign program =  site.data.program.program | sort: 'order' %}
+        {% for item in program  %}
+            {% if item.hide != true %}
+                <div class="program__item">
+                    <a class="program__title" href="/program/zanyatiya-dlya-vzroslykh/">Занятия для взрослых</a>
+                    <a class="program__image" href="/program/zanyatiya-dlya-vzroslykh/">
+                        <img src="{{ post.image | prepend: site.baseurl | default: image_default }}">
+                    </a>
+                    <div class="program__description">
+                        <a href="/program/zanyatiya-dlya-vzroslykh/">Программы для взрослых, имеющих различный уровень подготовки.</a>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div> -->
+
+<!-- <div class="program cf">
+    <h2>Направления занятий</h2>
+    <div class="program-wrap owl-carousel">
+        <div class="program__item">
+            <a class="program__title" href="/program/zanyatiya-dlya-vzroslykh/">Занятия для взрослых</a>
+            <a class="program__image" href="/program/zanyatiya-dlya-vzroslykh/">
                 <img src="{{ post.image | prepend: site.baseurl | default: image_default }}">
             </a>
-            <div class="programs__description">
-                <a href="/programm/zanyatiya-dlya-vzroslykh/">Программы для взрослых, имеющих различный уровень подготовки.</a>
+            <div class="program__description">
+                <a href="/program/zanyatiya-dlya-vzroslykh/">Программы для взрослых, имеющих различный уровень подготовки.</a>
             </div>
            
         </div>
-        <div class="programs__item">
-            <a class="programs__title" href="/programm/zanyatiya-dlya-detey-ot-3-let/">Занятия для детей от трех лет</a>
-            <a class="programs__image" href="/programm/zanyatiya-dlya-detey-ot-3-let/">
+        <div class="program__item">
+            <a class="program__title" href="/program/zanyatiya-dlya-detey-ot-3-let/">Занятия для детей от трех лет</a>
+            <a class="program__image" href="/program/zanyatiya-dlya-detey-ot-3-let/">
                 <img src="{{ post.image | prepend: site.baseurl | default: image_default }}">
             </a>
-            <div class="programs__description">
-                <a href="/programm/zanyatiya-dlya-detey-ot-3-let/">Программа для развития творческого потенциала.</a>
+            <div class="program__description">
+                <a href="/program/zanyatiya-dlya-detey-ot-3-let/">Программа для развития творческого потенциала.</a>
             </div>
         </div>
-        <div class="programs__item">
-            <a class="programs__title" href="/programm/zmaster-klass/">Мастер-классы</a>
-            <a class="programs__image" href="/programm/zmaster-klass/">
+        <div class="program__item">
+            <a class="program__title" href="/program/zmaster-klass/">Мастер-классы</a>
+            <a class="program__image" href="/program/zmaster-klass/">
                 <img src="{{ post.image | prepend: site.baseurl | default: image_default }}">
             </a>
-            <div class="programs__description">
-                <a href="/programm/zmaster-klass/">Мастер-классы по работе пастелью, маслом, акрилом  и многое другое</a>
+            <div class="program__description">
+                <a href="/program/zmaster-klass/">Мастер-классы по работе пастелью, маслом, акрилом  и многое другое</a>
             </div>
         </div>
-        <div class="programs__item">
-            <a class="programs__title" href="/programm/podgotovka-k ekzamenam/">Подготовка к вступительным испытаниям в ВУЗ</a>
-            <a class="programs__image" href="/programm/podgotovka-k ekzamenam/">
+        <div class="program__item">
+            <a class="program__title" href="/program/podgotovka-k ekzamenam/">Подготовка к вступительным испытаниям в ВУЗ</a>
+            <a class="program__image" href="/program/podgotovka-k ekzamenam/">
                 <img src="{{ post.image | prepend: site.baseurl | default: image_default }}">
             </a>
-            <div class="programs__description">
-                <a href="/programm/podgotovka-k-ekzamenam/">Подготовим к поступлению в ВУЗы по профильным дисциплинам</a>
+            <div class="program__description">
+                <a href="/program/podgotovka-k-ekzamenam/">Подготовим к поступлению в ВУЗы по профильным дисциплинам</a>
             </div>
         </div>
-        <div class="programs__item">
-            <a class="programs__title" href="programm/akademicheskaya-programma/">Академическая программа</a>
-            <a class="programs__image" href="/programm/akademicheskaya-programma/">
+        <div class="program__item">
+            <a class="program__title" href="program/akademicheskaya-programa/">Академическая программа</a>
+            <a class="program__image" href="/program/akademicheskaya-programa/">
                 <img src="{{ post.image | prepend: site.baseurl | default: image_default }}">
             </a>
-            <div class="programs__description">
-                <a href="/programm/akademicheskaya-programma/">Специальная программа для имеющих первоначальные навыки рисунка и живописи</a>
+            <div class="program__description">
+                <a href="/program/akademicheskaya-programa/">Специальная программа для имеющих первоначальные навыки рисунка и живописи</a>
             </div>
         </div>
-        <div class="programs__item">
-            <a class="programs__title" href="/programm/proyekt-shkola-dizayna/">Проект "Школа дизайна"</a>
-            <a class="programs__image" href="/programm/proyekt-shkola-dizayna/">
+        <div class="program__item">
+            <a class="program__title" href="/program/proyekt-shkola-dizayna/">Проект "Школа дизайна"</a>
+            <a class="program__image" href="/program/proyekt-shkola-dizayna/">
                 <img src="{{ post.image | prepend: site.baseurl | default: image_default }}">
             </a>
-            <div class="programs__description">
-                <a href="/programm/proyekt-shkola-dizayna/">Программа для детей от 8 до 14 лет.</a>
+            <div class="program__description">
+                <a href="/program/proyekt-shkola-dizayna/">Программа для детей от 8 до 14 лет.</a>
             </div>
         </div>
 

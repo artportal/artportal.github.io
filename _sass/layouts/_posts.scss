@@ -23,15 +23,48 @@
 
   .page-title {
     font-size: 1.2em;
-    margin-bottom: 1em;
+    margin-bottom: 10px;
     width: 100%;
   }
 
   a {
-    padding: 2em 3em;
-    border: 1px solid rgba(255, 255, 255, 0);
-    text-align: center;
+    position: relative;
+    padding: 0 50px;
+    margin: 20px 0;
+    border:none;
     width: 50%;
+
+    &:after{
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid;
+      border-bottom: none;
+      border-left: none;
+      transform: rotate(-135deg) translate(15px, 15px);
+    }
+
+    &#prev-post{
+      text-align: left;
+      border-right: 1px solid;
+
+      &:after{
+        transform: rotate(-135deg) translate(15px, 15px);
+      }
+    }
+
+    &#next-post{
+      text-align: right;
+
+      &:after{
+        left: unset;
+        right: 15px;
+        transform: rotate(45deg) translate(-15px, -15px);
+      }
+    }
   }
   // a:hover {
   //   @extend a.button:hover;

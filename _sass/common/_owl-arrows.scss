@@ -51,17 +51,19 @@
 
 .owl-prev.disabled,
 .owl-next.disabled {
-  opacity:0.8;
+  pointer-events: none;
+  opacity: 0.3;
+  border-color: #9f9d9d;
 }
 
 .owl-next {
-    right: 0;
+  right: 0;
 
 }
 
 .owl-prev {
-    transform: rotate(180deg);
-    left: 0;
+  transform: rotate(180deg);
+  left: 0;
 }
 
 .owl-dots{
