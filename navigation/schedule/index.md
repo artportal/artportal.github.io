@@ -21,6 +21,111 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 			</tr>
 			<tr>
 				<th>10:00-10:45</th>
+				<td></td>
+				<td>8-10 лет</td>
+				<td></td>
+				<td></td>
+				<td>8-10 лет</td>
+				<td>5-7 лет</td>
+				<td>5-7 лет</td>
+			</tr>
+			<tr class='even'>
+				<th>11:00-11:45</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>8-12 лет</td>
+				<td>8-12 лет</td>
+			</tr>
+			<tr>
+				<th>12:00-12:45</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>10-15 лет</td>
+				<td>10-15 лет</td>
+			</tr>
+			<tr class='even'>
+				<th>13:00-14:00</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Взрослые</td>
+				<td>Взрослые</td>
+			</tr>
+			<tr>
+				<th>15:00-15:45</th>
+				<td>10-12 лет</td>
+				<td>7-12 лет</td>
+				<td>7-12 лет</td>
+				<td>7-12 лет</td>
+				<td>7-12 лет</td>
+				<td>Мастер-классы</td>
+				<td>Мастер-классы</td>
+			</tr>
+			<tr class='even'>
+				<th>16:00-16:45</th>
+				<td>12-15 лет</td>
+				<td>10-15 лет</td>
+				<td>10-15 лет</td>
+				<td>10-15 лет</td>
+				<td>10-15 лет</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>17:00-17:45</th>
+				<td>12-15 лет</td>
+				<td>5-7 лет</td>
+				<td>5-7 лет</td>
+				<td>12-15 лет</td>
+				<td>5-7 лет</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class='even'>
+				<th>18:00-18:45</th>
+				<td>Взрослые</td>
+				<td>5-7 лет</td>
+				<td>5-7 лет</td>
+				<td>5-7 лет</td>
+				<td>5-7 лет</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class='even'>
+				<th>19:00-19:45</th>
+				<td>Взрослые</td>
+				<td>Взрослые</td>
+				<td>5-8 лет</td>
+				<td>Взрослые</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+<!-- 	<div class="schedule__item">
+		<h3 class="schedule__title" id = "schedule-spasskaya" style="text-align:center;">Режим работы студии по адресу {{ site.theme_settings.address_main }} </h3>
+		<table class="gray-table">
+			<tr>
+				<th style="width: 15%;">Время</th>
+				<th>ПН</th>
+				<th>ВТ</th>
+				<th>СР</th>
+				<th>ЧТ</th>
+				<th>ПТ</th>
+				<th>СБ</th>
+				<th>ВС</th>
+			</tr>
+			<tr>
+				<th>10:00-10:45</th>
 				<td>7-14 лет
 					<span class="schedule__teacher">Сурикова Н.В.</span>
 				</td>
@@ -142,10 +247,11 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 				<td></td>
 			</tr>
 		</table>
-	</div>
-	<div class="schedule__item">
+	</div> -->
+
+<!-- 	<div class="schedule__item">
 		<h3 class="schedule__title" id = "schedule-nizhnyaya_dubrova" style="text-align:center;">Режим работы студии по адресу {{ site.theme_settings.address_branch }}</h3>
-		<table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
+		<table class="gray-table">
 			<tr>
 				<th style="width: 15%;">Время</th>
 				<th>ПН</th>
@@ -185,7 +291,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 				<td></td>
 				<td></td>
 				<td>7-10 лет</td>
-			</tr><!-- Table Row -->
+			</tr>			
 			<tr class='even'>
 				<th>14:00-14:45</th>
 				<td>7-9 лет<span class="schedule__teacher">Жабская Н.Н.</span></td>
@@ -238,5 +344,5 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 			</tr>
 		</table>
 	</div>
-</div>
+ --></div>
 

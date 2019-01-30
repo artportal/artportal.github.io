@@ -33,7 +33,7 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 			</div>
 		</div>
 	</div>
-	<div class="contacts__item-wrap -block">
+	<!-- <div class="contacts__item-wrap -block">
 		<div class="contacts__item">
 			<div class="contacts__content">
 				<div class="contacts__content-item">
@@ -58,6 +58,6 @@ feature-img: "img/feature-img/cherez_mostok_1984_89_80_1.jpg"
 				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A22ff6bb525381f87abcc5196fe4b3f83da669c7242074d26acf4c7ff30d95568&amp;source=constructor"></iframe>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 
