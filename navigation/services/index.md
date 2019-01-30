@@ -5,7 +5,7 @@ permalink: /services/
 order: 5
 feature-img: "img/feature-img/zeyskaya_ges.jpg"
 ---
-<p>Для Вашего удобства в студии можно приобрести маетриалы для занятий.</p>
+<p>Для Вашего удобства в студии можно приобрести материалы для занятий.</p>
 <div class="catalog">
 {% assign catalog =  site.data.catalog.catalog | sort: 'order' %}
 {% for item in catalog  %}
