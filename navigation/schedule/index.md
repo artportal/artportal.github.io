@@ -8,7 +8,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 <div class="schedule">
 	<div class="schedule__item">
 		<h3 class="schedule__title" id = "schedule-spasskaya" style="text-align:center;">Режим работы студии по адресу {{ site.theme_settings.address_main }} </h3>
-		<table class="gray-table" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
+		<table class="gray-table">
 			<tr>
 				<th style="width: 15%;">Время</th>
 				<th>ПН</th>
