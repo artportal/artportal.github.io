@@ -6,17 +6,6 @@ body-class: main-page
     <h1>Изостудия Арт Портал</h1>
     <p><strong>Изостудия Арт Портал </strong> - это рисование для детей и взрослых. Студия открыта для всех, кто хочет научиться рисовать. Мы не проводим испытательных экзаменов и собеседований, главное от Вас – желание учиться. Возраст не имеет значения, научим всех. Набор в изостудию осуществляется в течении всего учебного года.</p>
 </div>
-<h2 class="cf"><a href="{{ site.baseurl }}/gallery/">Фотогалерея</a></h2>
-<div class="gallery js-photoswipe-gallery -main">
-    {% assign gallery = site.data.main-gallery.galereya-na-glavnoy %}
-        {% for image in gallery.images %}
-            <div class="gallery__item">
-                <a href="{{ site.baseurl }}/img/gallery/{{gallery.name}}/{{image.name}}">
-                    <img src="{{ site.baseurl }}/img/gallery/{{gallery.name}}/{{image.name}}" alt="">
-                </a>
-            </div>
-        {% endfor %}
-</div>
 <div class="news cf">
     <h2>Новости студии</h2>
     <div class="news-wrap owl-carousel">
@@ -50,6 +39,18 @@ body-class: main-page
         {% endfor %}
     </div>
 </div>
+<h2 class="cf"><a href="{{ site.baseurl }}/gallery/">Фотогалерея</a></h2>
+<div class="gallery js-photoswipe-gallery -main">
+    {% assign gallery = site.data.main-gallery.galereya-na-glavnoy %}
+        {% for image in gallery.images %}
+            <div class="gallery__item">
+                <a href="{{ site.baseurl }}/img/gallery/{{gallery.name}}/{{image.name}}">
+                    <img src="{{ site.baseurl }}/img/gallery/{{gallery.name}}/{{image.name}}" alt="">
+                </a>
+            </div>
+        {% endfor %}
+</div>
+
 <!-- <div class="program cf">
 
     <h2>Направления занятий</h2>
