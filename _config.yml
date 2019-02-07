@@ -8,7 +8,8 @@ theme_settings:
       Изостудия Арт Портал
       г. Владимир
   logo: logo-mini-invisible.png
-  description: # used by search engines
+  description: Изостудия Арт Портал - Рисование для детей и взрослых во Владимире
+  keywords: рисование для взрослых, рисование для детей, мастер классы по рисованию
 
   # Header and footer text
   header_text: >
