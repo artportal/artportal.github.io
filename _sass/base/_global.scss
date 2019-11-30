@@ -343,7 +343,7 @@ a {
       } 
     }
 
-    &.even td{
+    &:nth-child(odd) td{
       background: linear-gradient(to bottom,  #f8f8f8,  #f6f6f6);
     }
 
