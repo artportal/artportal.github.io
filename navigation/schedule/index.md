@@ -23,7 +23,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 				<th>10:00-10:45</th>
 				<td></td>
 				<td>8-12 лет</td>
-				<td>8-12 лет</td>
+				<td></td>
 				<td></td>
 				<td></td>
 				<td>5-7 лет</td>
@@ -53,7 +53,7 @@ feature-img: "img/feature-img/rybatskie_seynery_1979_84_102.jpg"
 				<th>15:00-15:45</th>
 				<td></td>
 				<td></td>
-				<td>7-12 лет</td>
+				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
