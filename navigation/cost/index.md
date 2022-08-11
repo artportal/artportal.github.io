@@ -14,12 +14,12 @@ feature-img: "img/feature-img/martovskii_sneg_1979_90_103_2.jpg"
 	<tr>
 		<th>Абонемент на месяц</th>
 		<td>8 академических часов</td>
-		<td>2200 рублей</td>
+		<td>2500 рублей</td>
 	</tr>
 	<tr class="even">
 		<th>Разовое занятие</th>
 		<td>1 академический час</td>
-		<td>350 рублей</td>
+		<td>450 рублей</td>
 	</tr>
 	<tr>
 		<th>Мастер-классы</th>
