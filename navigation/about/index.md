@@ -13,7 +13,7 @@ feature-img: "img/feature-img/tishina.akademichka_1984_100_53_2.jpg"
   <li><a href="{{ site.baseurl }}/programm/index.html#lesson-for-children">Занятия для детей (от пяти лет);</a></li>
   <li><a href="{{ site.baseurl }}/programm/index.html#master-class">Мастер-классы;</a></li>
   <li><a href="{{ site.baseurl }}/programm/index.html#preparation-for-exams">Подготовка к поступлению в ВУЗ;</a></li>
-  <li sryle="display=hidden"><a href="{{ site.baseurl }}/programm/index.html#school-of-design">Проект "Школа дизайна".</a></li>
+  <!-- <li><a href="{{ site.baseurl }}/programm/index.html#school-of-design">Проект "Школа дизайна".</a></li> -->
 </ol>
 <!-- <h2 style="font-weight: bold;">Руководитель студии:</h2>
 Сурикова Наталья Викторовна. Педагог высшей категории, дизайнер, член союза художников России. -->
