@@ -57,7 +57,7 @@ defaults:
       feature-img: "img/sample_feature_img_3.jpg"
 
 # PAGINATION
-paginate: 5
+paginate: 8
 paginate_path: "blog/page:num"
 
 plugins: [jekyll-paginate]
