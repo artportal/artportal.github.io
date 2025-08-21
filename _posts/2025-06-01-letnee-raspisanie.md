@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Лето в АртПортале
-image: "/img/post/2025-08-20/letnee-raspisanie.png"
+image: "/img/post/2025-06-01/letnee-raspisanie.png"
 annotation: До 31 августа занятия проводятся по летнему расписанию.
 ---
 До 31 августа занятия проводятся по летнему расписанию.
