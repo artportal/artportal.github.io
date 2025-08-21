@@ -24,8 +24,8 @@ theme_settings:
   address_main: "г. Владимир, ул. Студеная Гора, дом 36, 2 этаж каб. 228"
   address_branch: "г. Владимир, ул. Сперанского 11"
   email_address: # Full email address, e.g. "sam@example.com"
-  odnoklassniki: "https://ok.ru/artportal"
-  instagram: "https://www.instagram.com/artportal33/"
+  # odnoklassniki: "https://ok.ru/artportal"
+  # instagram: "https://www.instagram.com/artportal33/"
   vk: "https://vk.com/artstud33"
 
   # Scripts
