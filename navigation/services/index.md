@@ -3,6 +3,7 @@ layout: page
 title: Товары для художников
 permalink: /services/
 order: 5
+hide: true
 feature-img: "img/feature-img/zeyskaya_ges.jpg"
 ---
 <p>Для Вашего удобства в студии можно приобрести материалы для занятий.</p>
