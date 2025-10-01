@@ -1,20 +1,20 @@
 title: Фотогалерея
 name: galereya-na-glavnoy
 images:
-  - description: 
+  - description: Занятия в изостудии АртПортал
     name: v-studii-12.jpg
     
-  - description: 
+  - description: Занятия в изостудии АртПортал
     name: galereya-na-glavnoy-1.jpg
 
-  - description:
-    name: galereya-na-glavnoy-2.jpg
+  - description: Пишем цветы
+    name: bouquet.jpg
 
-  - description:
-    name: galereya-na-glavnoy-3.jpg
+  - description: В студии
+    name: deti-v-studii.jpg
 
-  - description:
-    name: galereya-na-glavnoy-4.jpg
+  - description: Пейзаж
+    name: devushka-peysage.jpg
 
-  - description:
-    name: galereya-na-glavnoy-5.jpg
+  - description: Пейзаж
+    name: peysage.jpg
