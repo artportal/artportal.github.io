@@ -3,9 +3,9 @@ name: galereya-na-glavnoy
 images:
   - description: Занятия в изостудии АртПортал
     name: v-studii-12.jpg
-    
-  - description: Занятия в изостудии АртПортал
-    name: galereya-na-glavnoy-1.jpg
+
+  - description: Академический рисунок в АртПортал
+    name: risunok.jpg
 
   - description: Пишем цветы
     name: bouquet.jpg
