@@ -3,12 +3,12 @@ name: galereya-na-glavnoy
 images:
   - description: Занятия в изостудии АртПортал
     name: v-studii-12.jpg
-
-  - description: Академический рисунок в АртПортал
-    name: risunok.jpg
-
+    
   - description: Пишем цветы
     name: bouquet.jpg
+    
+  - description: Академический рисунок в АртПортал
+    name: risunok.jpg
 
   - description: В студии
     name: deti-v-studii.jpg
